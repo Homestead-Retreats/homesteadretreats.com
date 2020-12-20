@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.images{
+  display: flex;
+  flex-direction: column;
+  height: 293px;
+  margin-left: 210px;
+  margin-top: 20px;
+}
+
+.gathering{
+  height: 140px;
+  width: 230px;
+  margin-bottom: 8px;
+}
+
+.lake{
+  height: 146px;
+  width: 230px;
+}
+
+.director{
+  height: 293px;
+  left: 450px;
+  position: absolute;
+  width: 223px;
+}
+
+.director-head{
+  color: #aa663c;
+    font-family: 'Palatino-Bold', 'Palatino', serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.paragraphs{
+  margin-left: 150px;
+  width: 550px;
+}
+
+.first-p{
+  color: #000100;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.second-p{
+  color: #000100;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.third-p{
+  color: #000100;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.fourth-p{
+  color: #000100;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
