@@ -3,7 +3,7 @@ import './AboutUs.css'
 
 export default function AboutUs() {
   return (
-    <div>
+    <div className="main-container">
       <div className="images">
         <img src="http://www.homesteadretreats.com/About_Us_files/shapeimage_5.jpg" alt="homestead-gathering"  className="gathering"/>
         <img src="http://www.homesteadretreats.com/About_Us_files/shapeimage_6.jpg" alt="homestead-lake" className="lake"/>
@@ -13,7 +13,7 @@ export default function AboutUs() {
         <h3>
           From The Director
         </h3>
-        <div>
+        <div className="line-break">
           <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break" />
         </div>
       </div>
