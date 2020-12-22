@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+
+.header-links{
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  margin-left: 450px;
+  margin-top: 10px;
+}
+
+.header-link{
+  text-decoration: none;
+  color: black;
+  font-family: 'Cabin', sans-serif;
+  opacity: 0.3;
+}
+
+.header-link:hover{
+  opacity: 1;
+}

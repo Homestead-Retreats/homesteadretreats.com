@@ -174,26 +174,3 @@
     margin-left: 1250px;
   }
 } 
-
-@media screen and (max-resolution: 531dpi){
-  .images{
-    margin-top: 10px;
-    margin-left: 90px;
-  }
-
-  .director{
-    height: 293px;
-    margin-left: 240px;
-    position: absolute;
-    width: 223px;
-  }
-
-  .director-head{
-    width: 250px;
-    margin-left: 200px;
-  }
-
-  .paragraphs{
-    margin-left: 150px;
-  }
-}
