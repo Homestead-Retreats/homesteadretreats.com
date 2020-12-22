@@ -1,10 +1,10 @@
 import React from 'react'
-import './Footer.css'
+import './Contact.css'
 
-export default function Footer() {
+export default function Contact() {
   return (
-    <div className="footer">
-      {/* <div>
+    <div>
+      <div>
         <h6>Director:</h6>
         <p>Greg Miller</p>
       </div>
@@ -38,7 +38,7 @@ export default function Footer() {
       </div>
       <div>
         <img src="http://www.homesteadretreats.com/About_Us_files/The%20Hall%20-%20original.jpg" />
-      </div> */}
+      </div>
     </div>
   )
 }

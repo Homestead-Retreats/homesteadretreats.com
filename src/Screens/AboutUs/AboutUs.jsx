@@ -1,9 +1,13 @@
 import React from 'react'
+import Contact from '../Contact/Contact'
 import './AboutUs.css'
 
 export default function AboutUs() {
   return (
     <div className="main-container">
+      <div className="aside">
+        <Contact />
+      </div>
       <div className="images">
         <img src="http://www.homesteadretreats.com/About_Us_files/shapeimage_5.jpg" alt="homestead-gathering"  className="gathering"/>
         <img src="http://www.homesteadretreats.com/About_Us_files/shapeimage_6.jpg" alt="homestead-lake" className="lake"/>
