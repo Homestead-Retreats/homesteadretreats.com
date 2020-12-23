@@ -18,3 +18,11 @@
 .header-link:hover{
   opacity: 1;
 }
+
+@media screen 
+  and (max-width: 846px) {
+    .header-links{
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+  }

@@ -1,3 +1,28 @@
-.contact-block{
-  display: inline-block;
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+
+.contact-title{
+  font-family: 'Cabin', sans-serif;
+  font-size: medium;
+  margin-top: 43px;
+  margin-bottom: 0;
 }
+
+.contact-info{
+  font-family: 'Cabin', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.contact-image{
+  margin-top: 15px;
+}
+
+
+@media screen 
+  and (max-width: 846px) {
+    .contact-container{
+    display: inline-block;
+    text-align: left;
+    justify-content: flex-start;
+    }
+  }

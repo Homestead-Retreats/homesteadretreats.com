@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
-.aside{
+.aside-right{
   display: inline-block;
+  text-align: left;
+  justify-content: flex-start;
 }
+
+.aside-left{
+  display: inline-block;
+  text-align: left;
+  justify-content: flex-start;
+}
+
 
 .images{
   display: flex;
@@ -74,11 +83,16 @@
 /* desktop breakpoint */
 
 @media only screen and (max-width: 1920px) {
+
+  .main-container{
+    margin-top: 20px;
+  }
+
   .images {
     display: flex;
     flex-direction: column;
     height: 293px;
-    margin-left: 730px;
+    margin-left: 130px;
     margin-top: 20px;
   }
 
@@ -89,8 +103,16 @@
     width: 223px;
   }
 
+  .director-head{
+    margin-left: 280px;
+  }
+
+  .line-break{
+    margin-left: 50px;
+  }
+
   .paragraphs{
-    margin-left: 690px;
+    margin-left: 100px;
     width: 550px;
   }
 }
@@ -127,21 +149,26 @@
 
 @media screen 
   and (max-width: 846px) {
+
   .main-container{
-    width: 640px;
+    margin-top: 250px;
+    width: 900px;
+  }
+
+  .aside-right{
+    width: 400px;
   }
 
   .images {
     display: flex;
     flex-direction: column;
     height: 293px;
-    margin-left: 90px;
+    margin-left: 30px;
     margin-top: 20px;
   }
 
   .director-head{
     margin-left: 50px
-    width 300px;
   }
 
   .director{
@@ -152,9 +179,23 @@
   }
 
   .paragraphs{
-    margin-left: 150px;
-    width: 350px;}
+    margin-left: 50px;
+  }
+
+  .first-p{
+    width: 450px;
+  }
+
+  .second-p{
+    width: 450px;
+  }
+
+  .third-p{
+    width: 450px;
+  }
 }
+
+/* 2k monitor */
 
 @media screen and (min-width: 2960px){
   .images{
