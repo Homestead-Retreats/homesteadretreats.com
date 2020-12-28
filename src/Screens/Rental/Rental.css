@@ -31,19 +31,21 @@
   display: inline;
   height: 140px;
   width: 230px;
+  margin-bottom: 8px;
+  margin-right: 10px;
 }
 
-.boy{
+.three{
   display: inline;
-  height: 146px;
+  height: 140px;
   width: 230px;
   margin-right: 10px;
   margin-left: 130px;
 }
 
-.girl{
+.four{
   display: inline;
-  height: 146px;
+  height: 140px;
   width: 230px;
 }
 
@@ -96,6 +98,7 @@
   .main-container{
     margin-top: 20px;
   }
+  
 
   .images {
     display: flex;

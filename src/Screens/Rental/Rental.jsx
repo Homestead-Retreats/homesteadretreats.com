@@ -1,24 +1,25 @@
 import React from 'react'
-import './FaclilitesandFood.css'
+import Prices from '../Prices/Prices'
+import './Rental.css'
 
-export default function FaclilitesandFood() {
+export default function RentalInfo() {
   return (
     <div className="main-container">
       <div className="aside-left">
-        
+        <Prices />
       </div>
       <div className="aside-right">
-      <div className="food-images">
+      <div className="rental-images">
         <img src="http://www.homesteadretreats.com/Rental_Information_files/shapeimage_5.jpg" alt="homestead-gathering"  className="one"/>
         <img src="http://www.homesteadretreats.com/Rental_Information_files/shapeimage_4.jpg" alt="homestead-lake" className="two"/>
         </div>
-        <div className="food-images">
-        <img src="http://www.homesteadretreats.com/Rental_Information_files/IMG_0432_3.jpg" alt="homestead-director" className="boy" />
-        <img src="http://www.homesteadretreats.com/Rental_Information_files/IMG_0275_2.jpg" alt="homestead-director" className="girl"/>
+        <div className="rental-images">
+        <img src="http://www.homesteadretreats.com/Rental_Information_files/IMG_0432_3.jpg" alt="homestead-director" className="three" />
+        <img src="http://www.homesteadretreats.com/Rental_Information_files/IMG_0275_2.jpg" alt="homestead-director" className="four"/>
         </div>
       <div className="director-head">
         <h3>
-          From The Director
+          Rental Groups
         </h3>
         <div className="line-break">
           <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break" />

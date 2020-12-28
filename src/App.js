@@ -3,7 +3,8 @@ import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import Layout from './Layout/Layout';
 import AboutUs from './Screens/AboutUs/AboutUs';
-import FaclilitesandFood from './Screens/FacilitesandFood/FaclilitesandFood';
+import RentalInfo from './Screens/Rental/Rental';
+
 
 
 function App(props) {
@@ -17,8 +18,8 @@ function App(props) {
             <AboutUs />
           </Route>
 
-          <Route path="/facilities-food">
-            <FaclilitesandFood />
+          <Route path="/rental">
+            <RentalInfo />
           </Route>
 
         </Switch>

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
+
+.price-year{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 3px solid black;
+  width: 92px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.price-title{
+  font-family: 'Cabin', sans-serif;
+}
+
+.price{
+  font-family: 'Cabin', sans-serif;
+}
+
+.price-red{
+  color: red;
+  font-weight: bold;
+}
+
+.price-image{
+  align-self: center;
+}
+
+.price-links{
+  text-decoration: none;
+  color: black;
+}
