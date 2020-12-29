@@ -1,33 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
-
+.price-background{
+  /* background-color: forestgreen; */
+}
 
 .price-year{
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 190px;
   border-bottom: 3px solid black;
-  width: 92px;
+  width: 90px;
   font-family: 'Cabin', sans-serif;
+  text-align: center;
 }
 
 .price-title{
   font-family: 'Cabin', sans-serif;
+  text-align: center;
 }
 
 .price{
   font-family: 'Cabin', sans-serif;
+  text-align: center;
 }
 
 .price-red{
   color: red;
   font-weight: bold;
+  text-align: center;
 }
 
 .price-image{
-  align-self: center;
+  margin-left: 179px;
+}
+
+.books{
+  text-align: center;
 }
 
 .price-links{
   text-decoration: none;
   color: black;
+}
+
+
+/* mobile break point */
+
+@media screen 
+  and (max-width: 846px) {}
+
+
+  /* 2K breakpoint  */
+@media screen and (min-width: 2960px){
+  .price-year{
+    margin: 0;
+  }
 }

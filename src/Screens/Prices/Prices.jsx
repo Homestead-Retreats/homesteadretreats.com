@@ -3,7 +3,7 @@ import './Prices.css'
 
 export default function Prices() {
   return (
-    <div>
+    <div className="price-background">
       <div>
         <p className="price-year">2019 Prices</p>
       </div>
@@ -41,6 +41,7 @@ export default function Prices() {
       <div>
         <img src="http://www.homesteadretreats.com/Rental_Information_files/shapeimage_3.jpg" alt="girl in white shirt" className="price-image"/>
       </div>
+      <div className="books">
       <div>
         <p className="price-books">Excellent Books:</p>
       </div>
@@ -49,7 +50,8 @@ export default function Prices() {
         <p>&</p>
         <a href="http://torchbearers.gospelcom.net/html/major/books/books_navigation.swf" target="_blank" rel="noopener noreferrer" className="price-links">The Indwelling Life of Christ</a>
         <p className="price-title">by Major Ian Thomas</p>
-      </div>
+        </div>
+        </div>
       <div>
         <p className="price-title">Great Bible School:</p>
         <a href="http://www.capernwray.ca/" target="_blank" rel="noopener noreferrer" className="price-links">Capernwray Harbour Bible CenterThetis Island, BC Canada V0R2Y0</a>

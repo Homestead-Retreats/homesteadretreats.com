@@ -17,11 +17,11 @@ export default function RentalInfo() {
         <img src="http://www.homesteadretreats.com/Rental_Information_files/IMG_0432_3.jpg" alt="homestead-director" className="three" />
         <img src="http://www.homesteadretreats.com/Rental_Information_files/IMG_0275_2.jpg" alt="homestead-director" className="four"/>
         </div>
-      <div className="director-head">
+      <div className="rental-head">
         <h3>
           Rental Groups
         </h3>
-        <div className="line-break">
+        <div className="rental-line-break">
           <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break" />
         </div>
       </div>

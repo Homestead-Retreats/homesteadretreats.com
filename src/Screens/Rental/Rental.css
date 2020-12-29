@@ -50,12 +50,13 @@
 }
 
 
-.director-head{
+.rental-head{
   color: #aa663c;
   font-family: 'Palatino-Bold', 'Palatino', serif;
   font-size: 18px;
   font-weight: bold;
   line-height: 24px;
+  /* margin-left: 300px; */
 }
 
 .paragraphs{
@@ -228,6 +229,6 @@
   }
 
   .paragraphs{
-    margin-left: 1250px;
+    /* margin-left: 1250px; */
   }
 } 
