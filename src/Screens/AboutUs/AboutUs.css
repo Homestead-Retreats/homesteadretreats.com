@@ -171,7 +171,7 @@
 
 /* 2k monitor */
 
-@media screen and (min-width: 2960px){
+@media screen and (max-width: 2960px){
   .images{
     margin-top: 10px;
     margin-left: 1280px;
@@ -187,6 +187,14 @@
   .director-head{
     width: 250px;
     margin-left: 1400px;
+  }
+
+  .director-h3{
+    margin-left: 25px;
+  }
+
+  .line-break{
+    margin-left: 90px;
   }
 
   .paragraphs{

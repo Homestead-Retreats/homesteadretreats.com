@@ -15,7 +15,7 @@ export default function AboutUs() {
         <img src="http://www.homesteadretreats.com/About_Us_files/shapeimage_4.jpg" alt="homestead-director" className="director"/>
       </div>
       <div className="director-head">
-        <h3>
+        <h3 className="director-h3">
           From The Director
         </h3>
         <div className="line-break">

@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
-.aside-right{
+.rental-aside-right{
   display: inline-block;
   text-align: left;
   justify-content: flex-start;
 }
 
-.aside-left{
+.rental-aside-left{
   display: inline-block;
   text-align: left;
   justify-content: flex-start;
 }
 
-
-.food-images{
-  display: flex;
-  height: 160px;
-}
 
 .one{
   display: inline;
@@ -56,7 +51,11 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 24px;
-  /* margin-left: 300px; */
+  margin-left: 300px;
+}
+
+.rental-line-break{
+  margin-left: 40px;
 }
 
 .paragraphs{
@@ -85,12 +84,6 @@
   line-height: 23px;
 }
 
-/* .fourth-p{
-  color: #000100;
-  font-family: 'Cabin', sans-serif;
-  font-size: 16px;
-  line-height: 23px;
-} */
 
 /* desktop breakpoint */
 
@@ -211,6 +204,11 @@
 /* 2k monitor */
 
 @media screen and (min-width: 2960px){
+
+  .price-year{
+    margin-left: 200px;
+  }
+  
   .images{
     margin-top: 10px;
     margin-left: 1280px;

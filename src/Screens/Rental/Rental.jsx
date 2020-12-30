@@ -5,10 +5,10 @@ import './Rental.css'
 export default function RentalInfo() {
   return (
     <div className="main-container">
-      <div className="aside-left">
+      <div className="rental-aside-left">
         <Prices />
       </div>
-      <div className="aside-right">
+      <div className="rental-aside-right">
       <div className="rental-images">
         <img src="http://www.homesteadretreats.com/Rental_Information_files/shapeimage_5.jpg" alt="homestead-gathering"  className="one"/>
         <img src="http://www.homesteadretreats.com/Rental_Information_files/shapeimage_4.jpg" alt="homestead-lake" className="two"/>
@@ -22,7 +22,7 @@ export default function RentalInfo() {
           Rental Groups
         </h3>
         <div className="rental-line-break">
-          <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break" />
+          <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break" className="-rental-line-break"/>
         </div>
       </div>
       <div className="paragraphs">
