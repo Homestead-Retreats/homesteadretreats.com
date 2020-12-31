@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import Layout from './Layout/Layout';
 import AboutUs from './Screens/AboutUs/AboutUs';
+import Facilites from './Screens/Facilites/Facilites';
 import RentalInfo from './Screens/Rental/Rental';
 
 
@@ -20,6 +21,10 @@ function App(props) {
 
           <Route path="/rental">
             <RentalInfo />
+          </Route>
+
+          <Route path='/facilities-food'>
+            <Facilites />
           </Route>
 
         </Switch>
