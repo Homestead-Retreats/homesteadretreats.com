@@ -175,6 +175,7 @@
 
   .images{
     margin-top: 10px;
+    margin-left: 150px;
   }
 
   .director{
@@ -186,15 +187,15 @@
 
   .director-head{
     width: 250px;
-    margin-left: 335px;
+    margin-left: 273px;
   }
 
   .director-h3{
-    margin-left: 25px;
+    margin-left: 40px;
   }
 
   .line-break{
-    margin-left: 90px;
+    margin-left: 80px;
   }
 
   .paragraphs{
