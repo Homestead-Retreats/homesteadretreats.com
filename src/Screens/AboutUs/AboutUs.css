@@ -172,9 +172,9 @@
 /* 2k monitor */
 
 @media screen and (max-width: 2960px){
+
   .images{
     margin-top: 10px;
-    margin-left: 1280px;
   }
 
   .director{
@@ -186,7 +186,7 @@
 
   .director-head{
     width: 250px;
-    margin-left: 1400px;
+    margin-left: 335px;
   }
 
   .director-h3{

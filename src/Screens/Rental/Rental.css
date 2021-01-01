@@ -209,10 +209,10 @@
     margin-left: 200px;
   }
   
-  .images{
+  /* .images{
     margin-top: 10px;
     margin-left: 1280px;
-  }
+  } */
 
   .director{
     height: 293px;
@@ -220,11 +220,11 @@
     position: absolute;
     width: 223px;
   }
-
+/* 
   .director-head{
     width: 250px;
     margin-left: 1400px;
-  }
+  } */
 
   .paragraphs{
     /* margin-left: 1250px; */

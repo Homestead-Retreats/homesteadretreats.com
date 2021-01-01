@@ -12,7 +12,7 @@ function App(props) {
   return (
     <div className="App">
       <Layout>
-
+      
         <Switch>
 
           <Route exact path="/">
