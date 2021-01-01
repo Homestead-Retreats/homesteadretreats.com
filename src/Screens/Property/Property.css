@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.text-box{
+  width: 750px;
+  margin-left: 600px;
+}
+
+.header-text{
+  font-family: 'Cabin', sans-serif;
+  color: #aa663c;
+}
+
+.image-box{
+  display: block;
+  width: 500px;
+  margin-left: 720px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.property-image-one{
+  width: 432px;
+  margin-top: 10px;
+}
+
+.property-image-two{
+  margin-top: 10px;
+}
+
+.property-image-three{
+  margin-top: 10px;
+}
+
+.property-image-four{
+  width: 432px;
+  margin-top: 10px;
+}
+
+.property-image-five{
+  width: 432px;
+  margin-top: 10px;
+}
+
+.property-image-six{
+  width: 432px;
+  margin-top: 10px;
+}
+
+.property-image-seven{
+  margin-top: 10px;
+  width: 432px;
+}
+
+.property-image-eight{
+  width: 432px;
+  margin-top: 10px;
+}
+
+.property-image-nine{
+  width: 432px;
+  margin-top: 10px;
+}
+
+.property-image-ten{
+  width: 432px;
+  margin-top: 10px;
+}
+
+.property-image-eleven{
+  margin-top: 10px;
+  width: 432px;
+}
+
+.property-image-twelve{
+  margin-top: 10px;
+  width: 432px;
+}
+
+.property-image-thirteen{
+  width: 432px;
+  margin-top: 10px;
+}
+
+.property-image-fourteen{
+  width: 432px;
+  margin-top: 10px;
+}
+
+.property-image-fifteen{
+  width: 432px;
+  margin-top: 10px;
+}
+
+.descriptions{
+  font-family: 'Cabin', sans-serif;
+  font-style: italic;
+  color: #aa663c;
+}
+
+@media screen 
+  and (min-width: 500px) {
+  }
+
+
+  @media screen 
+  and (min-width: 2960px) {
+    .text-box{
+      margin-left: 1200px;
+    }
+
+    .image-box{
+      margin-left: 1320px;
+    }
+  }
