@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.rec-images{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin-left: 700px;
+  margin-top: 150px;
+}
+
+.image-block-one{
+  display: flex;
+  flex-direction: column;
+}
+
+.path{
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.campfire{
+  margin-right: 5px;
+}
+
+.fishing{
+  margin-left: 5px;
+  height: 266px;
+}
+
+.background-orange{
+  background-color: #ecd4c1;
+  width: 800px;
+  margin-left: 550px;
+}
+
+.head-text{
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #aa663c;
+  font-family: 'Palatino-Bold', 'Palatino', serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.paragraph{
+  color: #000100;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.container-one{
+  display: inline;
+  width: 250px;
+}
+
+.container-two{
+  display: inline;
+  width: 250px;
+  height: 100px;
+}
+
+.container-three{
+  display: inline;
+  width: 250px;
+}
+
+.container-four{
+  display: inline;
+  width: 250px;
+}
+
+.list-item{
+  width: 150px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list-items{
+  width: 150px;
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 2960px){
+  .image-block-one{
+    margin-left: 1200px;
+  }
+
+  .background-orange{
+    margin-left: 1150px;
+  }
+}

@@ -3,7 +3,7 @@ import './Property.css'
 
 export default function Property() {
   return (
-    <div className="test">
+    <div className="">
       <div className="text-box">
         <p className="header-text">Our 45 acres include a beautiful park-like setting with rolling terrain, forested areas with a variety of towering trees and seven types of wetlands including the tip of Meadow Lake. Our unique wetlands are a sanctuary to a large variety of wildlife.  Some guests enjoy the adventure of taking a kayak trip up through the wetlands to Meadow Lake.  Others enjoy a quiet walk along one of our nature trails.</p>
       </div>
