@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.offsite-rec-images{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin-left: 700px;
+  margin-top: 30px;
+}
+
+.div-one{
+  display: flex;
+  flex-direction: column;
+}
+.boat{
+  margin-bottom: 11px;
+  margin-right: 5px;
+}
+
+.people{
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.table{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.flower{
+  margin-left: 5px;
+}
+
+.orange{
+  background-color: #ecd4c1;
+  width: 800px;
+  margin-left: 550px;
+}
+
+.left-time{
+  font-family: 'Cabin', sans-serif;
+  border-bottom: 3px solid black;
+  width: 260px;
+  margin-left: 270px;
+}
+
+.website-title{
+  font-family: 'Cabin', sans-serif;
+  color: #aa663c;
+}
+
+.website-link{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.website-link:hover{
+  font-weight: 700;
+}
