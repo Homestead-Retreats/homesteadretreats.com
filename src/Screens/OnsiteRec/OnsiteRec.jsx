@@ -23,7 +23,7 @@ export default function OnsiteRec() {
         <div>
           <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt=""/>
         </div>
-      <div className="test-one">
+      <div>
         <p className="paragraph">We have a variety of indoor and outdoor activities for our guests to enjoy during </p>
         <p className="paragraph">any free time they might have. These activities include:</p>
         </div>

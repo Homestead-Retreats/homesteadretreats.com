@@ -27,59 +27,116 @@ export default function OffsiteRec() {
         <div>
           <p className="left-time">Within 15 Minutes of The Homestead</p>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">Waterhouse Ropes Course</p>
           <a href="http://www.waterhousecenter.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.waterhousecenter.com</a>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">Evergreen Speedway</p>
           <a href="http://www.evergreenspeedway.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.evergreenspeedway.com</a>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">City of Snohomish</p>
           <p className="">Antique Capital of the Northwest Over 100 Antique Stores</p>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">Evergreen State Fairgrounds</p>
           <a href="http://www.evergreenfair.org/"target="_blank" rel="noopener noreferrer" className="website-link">www.evergreenfair.org</a>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">Hot Air Ballon Rides</p>
           <a href="http://www.airialballoon.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.airialballoon.com</a>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">Paved Walking and Biking Trail</p>
           <p className="">Centennial Trail in Snohomish</p>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">Craft Supplies and Classes</p>
           <a href="http://www.bfranklincrafts.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.bfranklincrafts.com</a>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">Golf Course</p>
           <a href="http://www.snohomishgolfcourse.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.snohomishgolfcourse.com</a>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">Fish Hatchery</p>
           <p className="">Wallace River Hatchery, Sultan, WA</p>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">2 Skateboard Parks</p>
           <p className="">Monroe Board and Blade City Park</p>
           <p className="">Averill Youth Complex - Snohomish (Tillicum Kiwanis Playground)</p>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">Indoor Swimming Pools</p>
           <a href="https://ymca-snoco.org/our-locations/monroesky-valley-ymca/" target="_blank" rel="noopener noreferrer" className="website-link">ymca-snoco.org</a>
           <a href="https://www.sno.wednet.edu/Domain/24"target="_blank" rel="noopener noreferrer" className="website-link">Snohomish Aquatic Center</a>
         </div>
-        <div>
+        <div className="test">
           <p className="website-title">Outdoor Swimming Areas</p>
           <p className="">Flowing Lake Park ($5.00 per car)</p>
           <p className="">Lake Tye Park (Monroe)</p>
         </div>
         </div>
+        <div className="right">
+        <div className="test">
+          <p className="right-time">Within 30 Minutes of The Homestead</p>
         </div>
+        <div className="test">
+          <p className="website-title">Nurseries Open to the Public</p>
+          <a href="http://www.molbaks.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.molbaks.com</a>
+          <a href="http://www.countryvillagebothell.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.countryvillagebothell.com</a>
+          <a href="http://www.flowerworldusa.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.flowerworldusa.com</a>
+        </div>
+        <div className="test">
+          <p className="website-title">Boeing Tour</p>
+          <a href="https://www.boeingfutureofflight.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.boeingfutureofflight.com</a>
+        </div>
+        <div className="test">
+          <p className="website-title">Hikes</p>
+          <p>Lord Hill Regional Park</p>
+          <p>Cherry Creek Falls Trail</p>
+          <p>Lake Serene</p>
+        </div>
+        <div className="test">
+          <p className="website-title">Everett Silvertips Hockey</p>
+          <a href="http://www.everettsilvertips.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.everettsilvertips.com</a>
+        </div>
+        <div className="test">
+          <p className="website-title">Public Ice Skating and Events</p>
+          <a href="http://www.comcastarenaeverett.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.comcastarenaeverett.com</a>
+        </div>
+        <div className="test">
+          <p className="website-title">Bowling</p>
+          <a href="http://www.evergreenlanes.net/" target="_blank" rel="noopener noreferrer" className="website-link">www.evergreenlanes.net</a>
+          <a href="http://www.glacierlanes.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.glacierlanes.com</a>
+        </div>
+        <div className="test">
+          <p className="website-title">Everett Aquasox Baseball</p>
+          <a href="http://www.aquasox.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.aquasox.com</a>
+        </div>
+        <div className="test">
+          <p className="website-title">River Rafting</p>
+          <a href="http://www.riverpeople.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.riverpeople.com</a>
+        </div>
+        <div>
+          <p className="right-time-hour">Within 1 Hour of The Homestead</p>
+        </div>
+        <div className="test">
+          <p className="website-title">Stevens Pass Ski Resort</p>
+          <a href="http://www.stevenspass.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.stevenspass.com</a>
+        </div>
+        <div className="test">
+          <p className="website-title">Tulip Festival</p>
+          <a href="http://www.tulipfestival.org/"target="_blank" rel="noopener noreferrer" className="website-link">www.tulipfestival.org</a>
+        </div>
+        <div className="test">
+          <p className="website-title">Snoqualmie Falls</p>
+          <a href="http://www.snoqualmiefalls.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.snoqualmiefalls.com</a>
+        </div>
+      </div>
+      </div>
     </div>
   )
 }
