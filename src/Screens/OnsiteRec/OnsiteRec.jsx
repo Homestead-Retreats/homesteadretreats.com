@@ -4,26 +4,26 @@ import './OnsiteRec.css'
 export default function OnsiteRec() {
   return (
     <div>
-      <div className="rec-images">
+      <div>
         <div className="image-block-one">
           <img src="http://www.homesteadretreats.com/Onsite_Recreation_files/shapeimage_3.jpg" alt="nature path" className="path"/>
           <img src="http://www.homesteadretreats.com/Onsite_Recreation_files/shapeimage_2.jpg" alt="campfire" className="campfire"/>
         </div>
-      <div className="image-block-three">
+      <div className="image-block-two">
           <img src="http://www.homesteadretreats.com/Onsite_Recreation_files/shapeimage_4.jpg" alt="group in field" className="field"/>
         </div>
-        <div className="image-block-four">
+        <div className="image-block-three">
           <img src="http://www.homesteadretreats.com/Onsite_Recreation_files/5%20Fish.jpg" alt="man fishing" className="fishing"/>
         </div>
       </div>
-      <div className="background-orange">
+      <div>
         <div className="head">
           <h3 className="head-text">Recreational Opportunities Onsite</h3>
         </div>
         <div>
           <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt=""/>
         </div>
-      <div>
+      <div className="test-one">
         <p className="paragraph">We have a variety of indoor and outdoor activities for our guests to enjoy during </p>
         <p className="paragraph">any free time they might have. These activities include:</p>
         </div>
