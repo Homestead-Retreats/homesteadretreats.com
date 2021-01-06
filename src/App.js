@@ -4,6 +4,7 @@ import './App.css';
 import Layout from './Layout/Layout';
 import AboutUs from './Screens/AboutUs/AboutUs';
 import Facilites from './Screens/Facilites/Facilites';
+import FloorPlan from './Screens/FloorPlan/FloorPlan';
 import OffsiteRec from './Screens/OffsiteRec/OffsiteRec';
 import OnsiteRec from './Screens/OnsiteRec/OnsiteRec';
 import Property from './Screens/Property/Property';
@@ -20,6 +21,11 @@ function App(props) {
 
           <Route exact path="/">
             <AboutUs />
+          </Route>
+
+
+          <Route path="/floor-plan">
+            <FloorPlan />
           </Route>
 
 
