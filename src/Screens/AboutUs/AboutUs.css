@@ -12,6 +12,18 @@
   justify-content: flex-start;
 }
 
+.director-head{
+  color: #aa663c;
+  font-family: 'Palatino-Bold', 'Palatino', serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-left: 300px;
+}
+
+.line-break{
+  margin-left: 50px;
+}
 
 .images{
   display: flex;
@@ -183,19 +195,6 @@
     margin-left: 250px;
     position: absolute;
     width: 223px;
-  }
-
-  .director-head{
-    width: 250px;
-    margin-left: 273px;
-  }
-
-  .director-h3{
-    margin-left: 40px;
-  }
-
-  .line-break{
-    margin-left: 80px;
   }
 
   .paragraphs{
