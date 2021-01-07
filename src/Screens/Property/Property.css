@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+
 .text-box{
   width: 750px;
   margin-left: 600px;
@@ -10,84 +11,112 @@
   color: #aa663c;
 }
 
-.image-box{
-  display: block;
+.image-box-one{
+  display: inline-block;
   width: 500px;
-  margin-left: 720px;
-  margin-bottom: 10px;
   margin-top: 10px;
 }
 
+.image-box-two{
+  display: inline-block;
+  width: 500px;
+}
+
+.image-box-three{
+  display: inline-block;
+  width: 500px;
+}
+
+
+
+
 .property-image-one{
-  width: 432px;
+  height: 150px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-two{
+  height: 150px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-three{
+  height: 250px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-four{
-  width: 432px;
+  height: 250px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-five{
-  width: 432px;
+  height: 150px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-six{
-  width: 432px;
+  height: 150px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-seven{
   margin-top: 10px;
-  width: 432px;
+  height: 150px;
+  width: 250px;
 }
 
 .property-image-eight{
-  width: 432px;
+  height: 250px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-nine{
-  width: 432px;
+  height: 250px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-ten{
-  width: 432px;
+  height: 150px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-eleven{
   margin-top: 10px;
-  width: 432px;
+  height: 150px;
+  width: 250px;
 }
 
 .property-image-twelve{
   margin-top: 10px;
-  width: 432px;
+  height: 150px;
+  width: 250px;
 }
 
 .property-image-thirteen{
-  width: 432px;
+  height: 150px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-fourteen{
-  width: 432px;
+  height: 150px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .property-image-fifteen{
-  width: 432px;
+  height: 150px;
+  width: 250px;
   margin-top: 10px;
 }
 
@@ -95,6 +124,8 @@
   font-family: 'Cabin', sans-serif;
   font-style: italic;
   color: #aa663c;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 @media screen 

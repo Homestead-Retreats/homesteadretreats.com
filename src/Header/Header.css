@@ -2,11 +2,9 @@
 
 .header-links{
   display: flex;
-  justify-content: space-evenly;
-  width: 1000px;
-  margin-left: 450px;
-  margin-top: 10px;
+  justify-content: space-around;
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .header-link{
@@ -19,16 +17,6 @@
 .header-link:hover{
   opacity: 1;
 }
-
-
-@media screen 
-  and (max-width: 500px) {
-    .header-links{
-      margin-left: 0px;
-      margin-top: 30px;
-    }
-  }
-
 
   @media screen and (min-width: 2960px){
     .header-links{

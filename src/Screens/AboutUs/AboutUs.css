@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+.main-container{
+  /* background-image: url(https://wallpaperaccess.com/full/2197688.jpg);
+  background-repeat: no-repeat;
+  background-size: auto; */
+  height: 100vh;
+}
+
 .aside-right{
   display: inline-block;
   text-align: left;

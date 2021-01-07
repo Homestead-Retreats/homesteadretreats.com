@@ -3,8 +3,8 @@ import './OnsiteRec.css'
 
 export default function OnsiteRec() {
   return (
-    <div>
-      <div>
+    <div className="onsite-rec">
+      <div className="image-block-parent">
         <div className="image-block-one">
           <img src="http://www.homesteadretreats.com/Onsite_Recreation_files/shapeimage_3.jpg" alt="nature path" className="path"/>
           <img src="http://www.homesteadretreats.com/Onsite_Recreation_files/shapeimage_2.jpg" alt="campfire" className="campfire"/>

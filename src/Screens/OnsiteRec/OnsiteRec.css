@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+.onsite-rec{
+  height: 100vh;
+}
+
+.image-block-parent{
+  height: 300px;
+}
+
 .image-block-one{
   display: inline-block;
   flex-direction: column;
