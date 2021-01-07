@@ -35,14 +35,36 @@
   margin-left: 5px;
 }
 
-.orange{
-  background: rgba(236, 212, 193, .5)
+/* .orange{
+  background-color: rgba(0, 0, 0, .7);
+} */
+
+.head{
+  background-color: rgba(0, 0, 0, .7);
+  margin-bottom: 10px;
+  width: 550px;
+  margin-left: 670px;
+  display: block;
+}
+
+.head-text{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.line-parent{
+  background-color: rgba(255, 255, 255, .6);
+  margin-bottom: 10px;
+  width: 90px;
+  margin-left: 910px;
+  display: block;
 }
 
 .left{
   display: inline-block;
   text-align: left;
   justify-content: left;
+  /* width: 500px; */
   /* margin-top: 50px; */
   /* margin-left: 350px; */
   /* margin-bottom: 50px; */
@@ -55,11 +77,17 @@
 }
 
 .left-time{
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
   font-family: 'Cabin', sans-serif;
   border-bottom: 3px solid black;
+  font-weight: 900;
+  font-size: 20px;
   width: 260px;
+  /* height: 500px; */
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .center{
@@ -77,17 +105,28 @@
 }
 
 .right-time{
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
   font-family: 'Cabin', sans-serif;
   border-bottom: 3px solid black;
   width: 260px;
+  font-weight: 900;
+  font-size: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .right-time-hour{
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
   font-family: 'Cabin', sans-serif;
   border-bottom: 3px solid black;
-  width: 225px;
+  width: 260px;
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -99,6 +138,7 @@
 
 .website-title{
   color: #aa663c;
+  background-color: rgba(0, 0, 0, .7);
   font-weight: 800;
   border-bottom: 2px solid #aa663c;
   width: 250px;
@@ -108,35 +148,56 @@
 
 .website-link{
   text-decoration: none;
-  color: black;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
   font-size: 19px;
+  width: 250px;
 }
 
 .fish{
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
+  width: 250px;
 }
 
 .antique{
   width: 250px;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .pool{
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
+  width: 250px;
 }
 
 .skate-park{
   width: 260px;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .hikes{
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
+  width: 250px;
 }
 
 .website-link:hover{

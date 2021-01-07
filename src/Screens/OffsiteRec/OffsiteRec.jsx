@@ -20,8 +20,8 @@ export default function OffsiteRec() {
         <div className="head">
           <h3 className="head-text">Recreational Opportunities Offsite</h3>
         </div>
-        <div>
-          <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt=""/>
+        <div className="line-parent">
+          <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break"/>
         </div>
       <div className="left">
         <div>
