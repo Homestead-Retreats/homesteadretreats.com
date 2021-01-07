@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+.offsite-rec{
+  height: 100vh;
+}
+
 .offsite-rec-images{
   display: flex;
   justify-content: center;
@@ -31,38 +35,45 @@
   margin-left: 5px;
 }
 
-/* .orange{
-  background-color: #ecd4c1;
-  width: 1500px;
-  text-align: center;
-  justify-content: center;
-} */
+.orange{
+  background: rgba(236, 212, 193, .5)
+}
 
 .left{
   display: inline-block;
   text-align: left;
   justify-content: left;
-  margin-right: 50px;
-  margin-left: 350px;
-  margin-bottom: 50px;
+  /* margin-top: 50px; */
+  /* margin-left: 350px; */
+  /* margin-bottom: 50px; */
 }
 
 .test{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
 }
 
 .left-time{
   font-family: 'Cabin', sans-serif;
   border-bottom: 3px solid black;
   width: 260px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.center{
+  display: inline-block;
+  text-align: left;
+  justify-content: left;
 }
 
 .right{
+  /* margin-top: -150px; */
   display: inline-block;
   text-align: left;
   justify-content: flex-start;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .right-time{
@@ -70,13 +81,20 @@
   border-bottom: 3px solid black;
   width: 260px;
   margin-top: 0px;
-  margin-bottom: 65px;
+  margin-bottom: 0px;
 }
 
 .right-time-hour{
   font-family: 'Cabin', sans-serif;
   border-bottom: 3px solid black;
   width: 225px;
+  margin-bottom: 0px;
+}
+
+.right-right{
+  display: inline-block;
+  text-align: left;
+  justify-content: flex-start;
 }
 
 .website-title{
@@ -84,12 +102,41 @@
   font-weight: 800;
   border-bottom: 2px solid #aa663c;
   width: 250px;
+  margin-top: 9px;
+  margin-bottom: 3px;
 }
 
 .website-link{
   text-decoration: none;
   color: black;
   font-size: 19px;
+}
+
+.fish{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.antique{
+  width: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.pool{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.skate-park{
+  width: 260px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.hikes{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .website-link:hover{

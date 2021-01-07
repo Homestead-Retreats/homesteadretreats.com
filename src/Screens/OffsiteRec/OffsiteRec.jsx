@@ -3,7 +3,7 @@ import './OffsiteRec.css'
 
 export default function OffsiteRec() {
   return (
-    <div>
+    <div className="offsite-rec">
       <div className="offsite-rec-images">
         <div className="div-one">
           <img src="http://www.homesteadretreats.com/Offsite_Recreation_files/5%20Drift%20by.jpg" alt="wooden boat" className="boat"/>
@@ -37,7 +37,7 @@ export default function OffsiteRec() {
         </div>
         <div className="test">
           <p className="website-title">City of Snohomish</p>
-          <p className="">Antique Capital of the Northwest Over 100 Antique Stores</p>
+          <p className="antique">Antique Capital of the Northwest Over 100 Antique Stores</p>
         </div>
         <div className="test">
           <p className="website-title">Evergreen State Fairgrounds</p>
@@ -49,8 +49,10 @@ export default function OffsiteRec() {
         </div>
         <div className="test">
           <p className="website-title">Paved Walking and Biking Trail</p>
-          <p className="">Centennial Trail in Snohomish</p>
+          <p className="hikes">Centennial Trail in Snohomish</p>
+          </div>
         </div>
+        <div className="center">
         <div className="test">
           <p className="website-title">Craft Supplies and Classes</p>
           <a href="http://www.bfranklincrafts.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.bfranklincrafts.com</a>
@@ -61,12 +63,12 @@ export default function OffsiteRec() {
         </div>
         <div className="test">
           <p className="website-title">Fish Hatchery</p>
-          <p className="">Wallace River Hatchery, Sultan, WA</p>
+          <p className="fish">Wallace River Hatchery, Sultan, WA</p>
         </div>
         <div className="test">
           <p className="website-title">2 Skateboard Parks</p>
-          <p className="">Monroe Board and Blade City Park</p>
-          <p className="">Averill Youth Complex - Snohomish (Tillicum Kiwanis Playground)</p>
+          <p className="skate-park">Monroe Board and Blade City Park</p>
+          <p className="skate-park">Averill Youth Complex - Snohomish (Tillicum Kiwanis Playground)</p>
         </div>
         <div className="test">
           <p className="website-title">Indoor Swimming Pools</p>
@@ -75,8 +77,8 @@ export default function OffsiteRec() {
         </div>
         <div className="test">
           <p className="website-title">Outdoor Swimming Areas</p>
-          <p className="">Flowing Lake Park ($5.00 per car)</p>
-          <p className="">Lake Tye Park (Monroe)</p>
+          <p className="pool">Flowing Lake Park ($5.00 per car)</p>
+          <p className="pool">Lake Tye Park (Monroe)</p>
         </div>
         </div>
         <div className="right">
@@ -95,9 +97,9 @@ export default function OffsiteRec() {
         </div>
         <div className="test">
           <p className="website-title">Hikes</p>
-          <p>Lord Hill Regional Park</p>
-          <p>Cherry Creek Falls Trail</p>
-          <p>Lake Serene</p>
+          <p className="hikes">Lord Hill Regional Park</p>
+          <p className="hikes">Cherry Creek Falls Trail</p>
+          <p className="hikes">Lake Serene</p>
         </div>
         <div className="test">
           <p className="website-title">Everett Silvertips Hockey</p>
@@ -119,7 +121,9 @@ export default function OffsiteRec() {
         <div className="test">
           <p className="website-title">River Rafting</p>
           <a href="http://www.riverpeople.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.riverpeople.com</a>
+          </div>
         </div>
+        <div className="right-right">
         <div>
           <p className="right-time-hour">Within 1 Hour of The Homestead</p>
         </div>
@@ -136,7 +140,7 @@ export default function OffsiteRec() {
           <a href="http://www.snoqualmiefalls.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.snoqualmiefalls.com</a>
         </div>
       </div>
-      </div>
+        </div>
     </div>
   )
 }
