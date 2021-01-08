@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+.property-container{
+  height: 100vh;
+  color: #aa663c;
+  background-color: rgba(0, 0, 0, .7);
+}
 
 .text-box{
   width: 750px;
@@ -13,22 +18,27 @@
 
 .image-box-one{
   display: inline-block;
-  width: 500px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .image-box-two{
   display: inline-block;
-  width: 500px;
+  width: 250px;
 }
 
 .image-box-three{
   display: inline-block;
-  width: 500px;
+  width: 250px;
 }
-
-
-
+.image-box-four{
+  display: inline-block;
+  width: 300px;
+}
+.image-box-five{
+  display: inline-block;
+  width: 300px;
+}
 
 .property-image-one{
   height: 150px;
@@ -79,8 +89,8 @@
 }
 
 .property-image-nine{
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 190px;
   margin-top: 10px;
 }
 
