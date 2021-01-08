@@ -1,19 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.facilites-container{
+  height: 100vh;
+  width: 50vw;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
+  display: inline-block;
+}
+
 .facilites-block-one{
   display: inline-block;
   flex-direction: column;
   width: 250px;
-  height: 293px;
-  margin-top: 20px;
+  height: 230px;
+  margin-top: 5px;
 }
 
 .facilites-block-two{
   display: inline-block;
   flex-direction: column;
   width: 250px;
-  height: 293px;
+  height: 230px;
   margin-left: -30px;
   margin-right: -30px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .facilites-block-three{
@@ -21,12 +32,12 @@
   flex-direction: column;
   width: 250px;
   height: 293px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
-.facilites-three{
-  height: 280px;
-}
+/* .facilites-three{
+  height: 230px;
+} */
 
 .facilites-head{
   color: #aa663c;
@@ -36,28 +47,73 @@
   line-height: 24px;
 }
 
+.facilites-h3{
+  color: #aa663c;
+  text-shadow: 0px 0px #aa663c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.facilites-line-break{
+  background-color: rgba(255, 255, 255, .6);
+  margin-bottom: 10px;
+  height: 20px;
+  width: 90px;
+  margin-left: 420px;
+  display: block;
+}
+
+/* .line-break-facilites{
+  margin-left: 9px;
+  margin-top: 3px;
+} */
+
 .facilites-paragraphs{
   display: flex;
   justify-content: center;
+  height: 180px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
 .facilites-first-p{
-  color: #000100;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
   font-family: 'Cabin', sans-serif;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 20px;
   width: 550px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .facilites-second-p{
-  color: #000100;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
   font-family: 'Cabin', sans-serif;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 20px;
   width: 550px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.facilites-image{
-  margin-top: 20px;
+.facilites-third-p{
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  width: 550px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+
+/* .facilites-image{
+  margin-top: 20px;
+  width: 550px;
+} */
