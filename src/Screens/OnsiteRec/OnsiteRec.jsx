@@ -17,11 +17,12 @@ export default function OnsiteRec() {
         </div>
       </div>
       <div>
-        <div className="head">
-          <h3 className="head-text">Recreational Opportunities Onsite</h3>
+        <div className="onsite-rec-head">
+          <h3 className="onsite-head-text">Recreational Opportunities Onsite</h3>
         </div>
-        <div>
-          <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt=""/>
+        <div className="onsite-line-break">
+          <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break
+          " className="line-break-onsite" />
         </div>
       <div>
         <p className="paragraph">We have a variety of indoor and outdoor activities for our guests to enjoy during </p>
