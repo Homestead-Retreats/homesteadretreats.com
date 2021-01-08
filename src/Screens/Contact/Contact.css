@@ -1,21 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
 
+.contact-container{
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.test{
+  margin-top: 0px;
+  height: 85.6px;
+}
+
 .contact-title{
   font-family: 'Cabin', sans-serif;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
   font-size: medium;
-  margin-top: 43px;
+  margin-top: 40px;
+  margin-left: 45px;
+  margin-right: 45px;
   margin-bottom: 0;
 }
 
 .contact-info{
   font-family: 'Cabin', sans-serif;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
   margin-top: 5px;
+  margin-left: 45px;
+  margin-right: 45px;
   margin-bottom: 0;
+}
+
+.image-parent{
+  display: flex;
+  justify-content: center;
 }
 
 .contact-image{
   margin-top: 15px;
+  margin-bottom: 15px;
 }
+
 
 
 @media screen 

@@ -18,10 +18,10 @@ export default function AboutUs() {
         <h3 className="director-h3">
           From The Director
         </h3>
-        <div className="line-break">
-          <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break" />
-        </div>
       </div>
+        <div className="about-line-break">
+          <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break" className="line-break-small"/>
+        </div>
       <div className="paragraphs">
         <p className="first-p">
           The Homestead is a Christian Camp, Retreat and Conference Center located north of Monroe in East Snohomish, Washington. Our private retreat facilities are situated on 45 beautiful acres on Meadow Lake in Western Washington just 45 minutes north of Seattle.

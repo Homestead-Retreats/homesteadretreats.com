@@ -11,12 +11,17 @@
   display: inline-block;
   text-align: left;
   justify-content: flex-start;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
+  margin-left: 20px;
 }
 
 .aside-left{
   display: inline-block;
   text-align: left;
   justify-content: flex-start;
+  /* height: 811.094px; */
 }
 
 .director-head{
@@ -28,8 +33,24 @@
   margin-left: 300px;
 }
 
-.line-break{
-  margin-left: 50px;
+.director-h3{
+  color: #aa663c;
+  text-shadow: 0px 0px #aa663c;
+}
+
+
+.about-line-break{
+  background-color: rgba(255, 255, 255, .6);
+  margin-bottom: 10px;
+  width: 90px;
+  margin-left: 320px;
+  display: block;
+}
+
+
+.line-break-small{
+  margin-left: 9px;
+  margin-top: 3px;
 }
 
 .images{
@@ -68,40 +89,42 @@
 
 .paragraphs{
   margin-left: 150px;
+  margin-right: 80px;
   width: 550px;
 }
 
 .first-p{
-  color: #000100;
+  color: #008c00;
   font-family: 'Cabin', sans-serif;
   font-size: 16px;
   line-height: 23px;
 }
 
 .second-p{
-  color: #000100;
+  color: #008c00;
   font-family: 'Cabin', sans-serif;
   font-size: 16px;
   line-height: 23px;
 }
 
 .third-p{
-  color: #000100;
+  color: #008c00;
   font-family: 'Cabin', sans-serif;
   font-size: 16px;
   line-height: 23px;
 }
 
 .fourth-p{
-  color: #000100;
+  color: #008c00;
   font-family: 'Cabin', sans-serif;
   font-size: 16px;
   line-height: 23px;
+  margin-bottom: 9px;
 }
 
 /* desktop breakpoint */
 
-@media only screen and (max-width: 1920px) {
+/* @media only screen and (max-width: 1920px) {
 
   .main-container{
     margin-top: 20px;
@@ -134,7 +157,7 @@
     margin-left: 100px;
     width: 550px;
   }
-}
+}  */
 
 
 
