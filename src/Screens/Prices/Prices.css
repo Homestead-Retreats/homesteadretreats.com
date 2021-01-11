@@ -1,27 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 .price-background{
-  /* background-color: forestgreen; */
+  background-color: rgba(0, 0, 0, .7);
+  margin-bottom: 10px;
+  width: 500px;
+  height: 955px;
+  display: block;
 }
 
 .price-year{
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 190px;
+  margin-left: 210px;
   border-bottom: 3px solid black;
   width: 90px;
   font-family: 'Cabin', sans-serif;
   text-align: center;
+  color: #aa663c;
+  padding-top: 5px;
 }
 
 .price-title{
   font-family: 'Cabin', sans-serif;
   text-align: center;
+  color: #aa663c;
 }
 
 .price{
   font-family: 'Cabin', sans-serif;
   text-align: center;
+  color: #aa663c;
 }
 
 .price-red{
@@ -38,11 +46,20 @@
   text-align: center;
 }
 
-.price-links{
-  text-decoration: none;
-  color: black;
+.price-books{
+  color: #aa663c;
 }
 
+.price-links{
+  text-decoration: none;
+  color: #aa663c;
+}
+
+.price-links-long{
+  text-decoration: none;
+  color: #aa663c;
+  margin-left: 6px;
+}
 
 /* mobile break point */
 

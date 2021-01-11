@@ -4,14 +4,26 @@
   display: inline-block;
   text-align: left;
   justify-content: flex-start;
+  background-color: rgba(0, 0, 0, .7);
+  width: 700px;
+  height: 960px;
 }
 
 .rental-aside-left{
   display: inline-block;
   text-align: left;
   justify-content: flex-start;
+  width: 600px;
 }
 
+
+.rental-images-block-one{
+  margin-top: 147px;
+}
+
+.rental-images-block-two{
+  margin-bottom: 67px;
+}
 
 .one{
   display: inline;
@@ -20,6 +32,7 @@
   margin-bottom: 8px;
   margin-right: 10px;
   margin-left: 130px;
+  /* margin-top: 147px; */
 }
 
 .two{

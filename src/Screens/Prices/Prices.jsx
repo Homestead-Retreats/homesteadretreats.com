@@ -47,14 +47,14 @@ export default function Prices() {
       </div>
       <div>
         <a href="http://torchbearers.gospelcom.net/html/major/books/books_navigation.swf" target="_blank" rel="noopener noreferrer" className="price-links">The Saving Life of Christ</a>
-        <p>&</p>
+        <p className="price-links">&</p>
         <a href="http://torchbearers.gospelcom.net/html/major/books/books_navigation.swf" target="_blank" rel="noopener noreferrer" className="price-links">The Indwelling Life of Christ</a>
         <p className="price-title">by Major Ian Thomas</p>
         </div>
         </div>
       <div>
         <p className="price-title">Great Bible School:</p>
-        <a href="http://www.capernwray.ca/" target="_blank" rel="noopener noreferrer" className="price-links">Capernwray Harbour Bible CenterThetis Island, BC Canada V0R2Y0</a>
+        <a href="http://www.capernwray.ca/" target="_blank" rel="noopener noreferrer" className="price-links-long">Capernwray Harbour Bible CenterThetis Island, BC Canada V0R2Y0</a>
       </div>
       </div>
   )

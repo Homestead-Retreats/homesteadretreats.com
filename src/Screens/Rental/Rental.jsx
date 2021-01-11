@@ -9,11 +9,11 @@ export default function RentalInfo() {
         <Prices />
       </div>
       <div className="rental-aside-right">
-      <div className="rental-images">
+      <div className="rental-images-block-one">
         <img src="http://www.homesteadretreats.com/Rental_Information_files/shapeimage_5.jpg" alt="homestead-gathering"  className="one"/>
         <img src="http://www.homesteadretreats.com/Rental_Information_files/shapeimage_4.jpg" alt="homestead-lake" className="two"/>
         </div>
-        <div className="rental-images">
+        <div className="rental-images-block-two">
         <img src="http://www.homesteadretreats.com/Rental_Information_files/IMG_0432_3.jpg" alt="homestead-director" className="three" />
         <img src="http://www.homesteadretreats.com/Rental_Information_files/IMG_0275_2.jpg" alt="homestead-director" className="four"/>
         </div>
@@ -21,9 +21,9 @@ export default function RentalInfo() {
         <h3>
           Rental Groups
         </h3>
-        <div className="rental-line-break">
+        {/* <div className="rental-line-break">
           <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break" className="-rental-line-break"/>
-        </div>
+        </div> */}
       </div>
       <div className="paragraphs">
         <p className="first-p">
