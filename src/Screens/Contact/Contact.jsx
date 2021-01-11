@@ -4,36 +4,36 @@ import './Contact.css'
 export default function Contact() {
   return (
     <div className="contact-container">
-      <div className="test">
-        <h6 className="contact-title">Director:</h6>
+      <div className="contact-div-top">
+        <p className="contact-title">Director:</p>
         <p className="contact-info">Greg Miller</p>
       </div>
-      <div className="test">
-        <h6 className="contact-title">Registrar:</h6>
+      <div className="contact-div">
+        <p className="contact-title">Registrar:</p>
         <p className="contact-info">Teresa Miller</p>
       </div>
-      <div className="test">
-        <h6 className="contact-title">Food Service:</h6>
+      <div className="contact-div">
+        <p className="contact-title">Food Service:</p>
         <p className="contact-info">Teresa Miller</p>
       </div>
-      <div className="test">
-        <h6 className="contact-title">Phone:</h6>
+      <div className="contact-div">
+        <p className="contact-title">Phone:</p>
         <p className="contact-info">360-568-6512</p>
       </div>
-      <div className="test">
-        <h6 className="contact-title">Fax:</h6>
+      <div className="contact-div">
+        <p className="contact-title">Fax:</p>
         <p className="contact-info">360-568-6512</p>
       </div>
-      <div className="test">
-        <h6 className="contact-title">Email:</h6>
+      <div className="contact-div">
+        <p className="contact-title">Email:</p>
         <p className="contact-info">Office@HomesteadRetreats.com</p>
       </div>
-      <div className="test">
-        <h6 className="contact-title">Location:</h6>
+      <div className="contact-div">
+        <p className="contact-title">Location:</p>
         <p className="contact-info">19028 Meadow Lake Rd Snohomish, WA 98290</p>
       </div>
-      <div className="test">
-        <h6 className="contact-title">Tour:</h6>
+      <div className="contact-div">
+        <p className="contact-title">Tour:</p>
         <p className="contact-info">By appointment only</p>
       </div>
       <div className="image-parent">

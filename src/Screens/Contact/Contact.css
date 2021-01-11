@@ -4,9 +4,14 @@
   background-color: rgba(0, 0, 0, .7);
 }
 
-.test{
-  margin-top: 0px;
-  height: 85.6px;
+.contact-div-top{
+  padding-top: 2px;
+  height: 72px;
+}
+
+.contact-div{
+  /* margin-top: 10px; */
+  height: 72px;
 }
 
 .contact-title{
@@ -15,7 +20,7 @@
   text-shadow: 1px 1px #008c00;
   background-color: rgba(0, 0, 0, .7);
   font-size: medium;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   margin-left: 45px;
   margin-right: 45px;
   margin-bottom: 0;
