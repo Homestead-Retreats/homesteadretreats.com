@@ -31,11 +31,11 @@ export default function OffsiteRec() {
           <p className="website-title">Waterhouse Ropes Course</p>
           <a href="http://www.waterhousecenter.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.waterhousecenter.com</a>
         </div>
-        <div className="test">
+        <div className="test-long-one">
           <p className="website-title">Evergreen Speedway</p>
           <a href="http://www.evergreenspeedway.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.evergreenspeedway.com</a>
         </div>
-        <div className="test">
+        <div>
           <p className="website-title">City of Snohomish</p>
           <p className="antique">Antique Capital of the Northwest Over 100 Antique Stores</p>
         </div>
@@ -61,21 +61,21 @@ export default function OffsiteRec() {
           <p className="website-title">Golf Course</p>
           <a href="http://www.snohomishgolfcourse.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.snohomishgolfcourse.com</a>
         </div>
-        <div className="test">
+        <div className="test-tall">
           <p className="website-title">Fish Hatchery</p>
           <p className="fish">Wallace River Hatchery, Sultan, WA</p>
         </div>
-        <div className="test">
+        <div className="test-tall">
           <p className="website-title">2 Skateboard Parks</p>
           <p className="skate-park">Monroe Board and Blade City Park</p>
           <p className="skate-park">Averill Youth Complex - Snohomish (Tillicum Kiwanis Playground)</p>
         </div>
-        <div className="test">
+        <div className="test-tall-two">
           <p className="website-title">Indoor Swimming Pools</p>
           <a href="https://ymca-snoco.org/our-locations/monroesky-valley-ymca/" target="_blank" rel="noopener noreferrer" className="website-link">ymca-snoco.org</a>
           <a href="https://www.sno.wednet.edu/Domain/24"target="_blank" rel="noopener noreferrer" className="website-link">Snohomish Aquatic Center</a>
         </div>
-        <div className="test">
+        <div className="test-tall">
           <p className="website-title">Outdoor Swimming Areas</p>
           <p className="pool">Flowing Lake Park ($5.00 per car)</p>
           <p className="pool">Lake Tye Park (Monroe)</p>
@@ -85,7 +85,7 @@ export default function OffsiteRec() {
         <div className="test">
           <p className="right-time">Within 30 Minutes of The Homestead</p>
         </div>
-        <div className="test">
+        <div className="test-tall-three">
           <p className="website-title">Nurseries Open to the Public</p>
           <a href="http://www.molbaks.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.molbaks.com</a>
           <a href="http://www.countryvillagebothell.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.countryvillagebothell.com</a>
@@ -95,7 +95,7 @@ export default function OffsiteRec() {
           <p className="website-title">Boeing Tour</p>
           <a href="https://www.boeingfutureofflight.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.boeingfutureofflight.com</a>
         </div>
-        <div className="test">
+        <div className="test-tall-four">
           <p className="website-title">Hikes</p>
           <p className="hikes">Lord Hill Regional Park</p>
           <p className="hikes">Cherry Creek Falls Trail</p>
@@ -105,11 +105,11 @@ export default function OffsiteRec() {
           <p className="website-title">Everett Silvertips Hockey</p>
           <a href="http://www.everettsilvertips.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.everettsilvertips.com</a>
         </div>
-        <div className="test">
+        <div className="test-long">
           <p className="website-title">Public Ice Skating and Events</p>
           <a href="http://www.comcastarenaeverett.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.comcastarenaeverett.com</a>
         </div>
-        <div className="test">
+        <div className="test-long-two">
           <p className="website-title">Bowling</p>
           <a href="http://www.evergreenlanes.net/" target="_blank" rel="noopener noreferrer" className="website-link">www.evergreenlanes.net</a>
           <a href="http://www.glacierlanes.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.glacierlanes.com</a>
