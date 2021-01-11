@@ -102,7 +102,6 @@
 .container-two{
   display: inline;
   width: 250px;
-  height: 100px;
 }
 
 .container-three{
@@ -121,7 +120,6 @@
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .list-items{
