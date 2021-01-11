@@ -20,9 +20,9 @@ export default function Facilites() {
           Clean Facilities and Great Food or U-Cook
         </h3>
       </div>
-        <div className="facilites-line-break">
+        {/* <div className="facilites-line-break">
           <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break" className="line-break-facilites"/>
-        </div>
+        </div> */}
       <div className="facilites-paragraphs">
         <p className="facilites-first-p">You'll feel at home in our clean and comfortable facilities. We are able to accommodate up to sixty people overnight. All groups have exclusive use of our facilities. Our Main Hall includes sleeping quarters for 17, a meeting room with air conditioning and a nice gas fireplace, and dining room. The FellowshipHall includes a recreation room along with additional sleeping quarters. We also have three apartments that are available to groups for a small additional fee. See floor plans for further detail.</p>
       </div>
