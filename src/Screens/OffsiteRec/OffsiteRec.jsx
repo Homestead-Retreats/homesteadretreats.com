@@ -20,9 +20,6 @@ export default function OffsiteRec() {
         <div className="head">
           <h3 className="head-text">Recreational Opportunities Offsite</h3>
         </div>
-        <div className="line-parent">
-          <img src="http://www.homesteadretreats.com/About_Us_files/backgroundimage_1.png" alt="line-break"/>
-        </div>
       <div className="left">
         <div>
           <p className="left-time">Within 15 Minutes of The Homestead</p>
@@ -72,9 +69,11 @@ export default function OffsiteRec() {
         </div>
         <div className="test-tall-two">
           <p className="website-title">Indoor Swimming Pools</p>
+        </div>
+          <div className="tall">
           <a href="https://ymca-snoco.org/our-locations/monroesky-valley-ymca/" target="_blank" rel="noopener noreferrer" className="website-link">ymca-snoco.org</a>
           <a href="https://www.sno.wednet.edu/Domain/24"target="_blank" rel="noopener noreferrer" className="website-link">Snohomish Aquatic Center</a>
-        </div>
+          </div>
         <div className="test-tall">
           <p className="website-title">Outdoor Swimming Areas</p>
           <p className="pool">Flowing Lake Park ($5.00 per car)</p>
@@ -87,10 +86,12 @@ export default function OffsiteRec() {
         </div>
         <div className="test-tall-three">
           <p className="website-title">Nurseries Open to the Public</p>
-          <a href="http://www.molbaks.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.molbaks.com</a>
-          <a href="http://www.countryvillagebothell.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.countryvillagebothell.com</a>
-          <a href="http://www.flowerworldusa.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.flowerworldusa.com</a>
-        </div>
+          </div>
+          <div className="tall-two">
+            <a href="http://www.molbaks.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.molbaks.com</a>
+            <a href="http://www.countryvillagebothell.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.countryvillagebothell.com</a>
+            <a href="http://www.flowerworldusa.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.flowerworldusa.com</a>
+          </div>
         <div className="test">
           <p className="website-title">Boeing Tour</p>
           <a href="https://www.boeingfutureofflight.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.boeingfutureofflight.com</a>
@@ -105,15 +106,17 @@ export default function OffsiteRec() {
           <p className="website-title">Everett Silvertips Hockey</p>
           <a href="http://www.everettsilvertips.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.everettsilvertips.com</a>
         </div>
-        <div className="test-long">
+        <div className="test">
           <p className="website-title">Public Ice Skating and Events</p>
           <a href="http://www.comcastarenaeverett.com/" target="_blank" rel="noopener noreferrer" className="website-link">www.comcastarenaeverett.com</a>
         </div>
         <div className="test-long-two">
           <p className="website-title">Bowling</p>
-          <a href="http://www.evergreenlanes.net/" target="_blank" rel="noopener noreferrer" className="website-link">www.evergreenlanes.net</a>
-          <a href="http://www.glacierlanes.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.glacierlanes.com</a>
-        </div>
+          </div>
+          <divn className="tall-three">
+            <a href="http://www.evergreenlanes.net/" target="_blank" rel="noopener noreferrer" className="website-link">www.evergreenlanes.net</a>
+            <a href="http://www.glacierlanes.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.glacierlanes.com</a>
+          </divn>
         <div className="test">
           <p className="website-title">Everett Aquasox Baseball</p>
           <a href="http://www.aquasox.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.aquasox.com</a>
