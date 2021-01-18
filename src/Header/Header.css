@@ -100,6 +100,12 @@
   opacity: 1;
 }
 
+@media (max-width: 500px) {
+  .header-links{
+    display: none;
+  }
+}
+
   @media screen and (min-width: 2960px){
     .header-links{
       /* margin-left: 1000px;
