@@ -108,16 +108,36 @@
 
   @media screen and (min-width: 2960px){
     .header-links{
-      /* margin-left: 1000px;
-      margin-bottom: 50px; */
-      /* display: flex;
-      justify-content: space-around;
-      margin-bottom: 10px;
-      padding-top: 10px; */
-      /* padding: 10px; */
-      /* height: 961px; */
-      /* display: flex;
-      flex-direction: row; */
-      /* width: 2600px; */
+      display: flex;
+      /* justify-content: space-between; */
+      padding-top: 10px;
+    }
+
+    .header-link-home:hover{
+      opacity: 1;
+    }
+
+    .header-link-facilities:hover{
+      opacity: 1;
+    }
+
+    .header-link-property:hover{
+      opacity: 1;
+    }
+    
+    .header-link-onsite:hover{
+      opacity: 1;
+    }
+    
+    .header-link-offsite:hover{
+      opacity: 1;
+    }
+    
+    .header-link-rental:hover{
+      opacity: 1;
+    }
+    
+    .header-link-floor:hover{
+      opacity: 1;
     }
   }
