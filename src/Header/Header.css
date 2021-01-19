@@ -109,8 +109,8 @@
   @media screen and (min-width: 2960px){
     .header-links{
       display: flex;
-      /* justify-content: space-between; */
-      padding-top: 10px;
+      justify-content: space-around;
+      padding-top: 30px;
     }
 
     .header-link-home:hover{

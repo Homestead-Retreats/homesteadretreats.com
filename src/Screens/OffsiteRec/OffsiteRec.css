@@ -256,3 +256,22 @@
   width: 260px;
   margin-right: 20px;
 } */
+
+
+@media screen and (min-width: 2960px){
+  .offsite-rec-images{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-left: 1200px;
+    margin-top: 30px;
+  }
+
+  .head{
+    background-color: rgba(0, 0, 0, .7);
+    margin-bottom: 10px;
+    width: 550px;
+    margin-left: 1200px;
+    display: block;
+  }
+}
