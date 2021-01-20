@@ -4,11 +4,10 @@
   background-color: rgba(0, 0, 0, .7);
   /* margin-bottom: 10px; */
   width: 520px;
-  height: 910px;
+  height: 915px;
 }
 
 .price-year-container{
-  /* padding-top: 250px; */
   margin-bottom: 20px;
 }
 
@@ -66,7 +65,7 @@
 .price-links-long{
   text-decoration: none;
   color: #aa663c;
-  margin-left: 6px;
+  margin-left: 15px;
 }
 
 /* mobile break point */
