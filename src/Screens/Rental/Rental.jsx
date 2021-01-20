@@ -4,7 +4,7 @@ import './Rental.css'
 
 export default function RentalInfo() {
   return (
-    <div className="main-container">
+    <div className="rental-container">
       <div className="rental-aside-left">
         <Prices />
       </div>

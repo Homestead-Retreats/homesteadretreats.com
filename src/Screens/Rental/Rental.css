@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+.rental-container{
+  height: 100vh;
+  width: 100vw;
+}
+
 .rental-aside-right{
   display: inline-block;
   text-align: left;
   justify-content: flex-start;
   background-color: rgba(0, 0, 0, .7);
-  width: 700px;
-  height: 960px;
+  /* width: 700px; */
+  height: 900px;
+  margin-top: 50px;
 }
 
 .rental-aside-left{
@@ -14,6 +20,7 @@
   text-align: left;
   justify-content: flex-start;
   width: 600px;
+  /* height: 980px; */
 }
 
 
@@ -217,6 +224,24 @@
 /* 2k monitor */
 
 @media screen and (min-width: 2960px){
+
+  .rental-aside-left{
+    display: inline-block;
+    text-align: left;
+    justify-content: flex-start;
+    height: 811.094px;
+  }
+
+  .rental-aside-right{
+    display: inline-block;
+    text-align: left;
+    justify-content: flex-start;
+    color: #008c00;
+    text-shadow: 1px 1px #008c00;
+    background-color: rgba(0, 0, 0, .7);
+    margin-left: 20px;
+    padding-top: 50px;
+  }
 
   .price-year{
     margin-left: 200px;
