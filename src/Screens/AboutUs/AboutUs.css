@@ -163,15 +163,24 @@
 /* mobile break point */
 
 @media screen 
-  and (max-width: 846px) {
+  and (max-width: 500px) {
 
   .main-container{
-    margin-top: 250px;
-    width: 900px;
+    /* margin-top: 250px; */
+    width: 250px;
   }
 
+
   .aside-right{
-    width: 400px;
+    display: inline-block;
+    text-align: left;
+    justify-content: flex-start;
+    color: #008c00;
+    text-shadow: 1px 1px #008c00;
+    background-color: rgba(0, 0, 0, .7);
+    margin-left: 20px;
+    padding-top: 50px;
+    width: 300px;
   }
 
   .images {

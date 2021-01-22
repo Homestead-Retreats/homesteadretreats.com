@@ -1,13 +1,14 @@
 import React from 'react'
 // import Footer from '../Footer/Footer'
-import Header from '../Header/Header'
+// import Header from '../Header/Header'
+import Burger from "../Header/Burger";
 
-export default function Layout(props) {
-  return (
-    <div>
-      <Header />
-      {props.children}
-      {/* <Footer /> */}
-    </div>
-  )
-}
+const Layout = (props) => (
+  <div className="layout">
+    <Burger />
+    <div className="layout-children">{props.children}</div>
+    {/* <Footer /> */}
+  </div>
+);
+
+export default Layout;

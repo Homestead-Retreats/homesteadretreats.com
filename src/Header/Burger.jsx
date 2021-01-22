@@ -1,30 +1,38 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Header from "./Header";
+// import LeftNav from "./LeftNav";
 
 const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 18px;
-  z-index: 9999;
+  top: 15px;
+  right: 20px;
+  z-index: 20;
   display: none;
-  left: 0;
-  margin-left: 20px;
-  cursor: pointer;
-  &:active .bar-line,
-  &:hover .bar-line {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  }
   @media (max-width: 500px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
   }
-  .bar-line {
-    width: 38px;
-    height: 3px;
-    background-color: #3d3d3d;
+  div {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: ${({ open }) => open ? '#ccc' : '#333'};
+    border-radius: 10px;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+    &:nth-child(1) {
+      transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
+    }
+    &:nth-child(2) {
+      transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'};
+      opacity: ${({ open }) => open ? 0 : 1};
+    }
+    &:nth-child(3) {
+      transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
+    }
   }
 `;
 

@@ -32,7 +32,7 @@ export default function Contact() {
         <p className="contact-title">Location:</p>
         <p className="contact-info">19028 Meadow Lake Rd Snohomish, WA 98290</p>
       </div>
-      <div className="contact-div">
+      <div className="contact-div-bottom">
         <p className="contact-title">Tour:</p>
         <p className="contact-info">By appointment only</p>
       </div>
