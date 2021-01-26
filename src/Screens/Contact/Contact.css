@@ -87,10 +87,22 @@
       color: #008c00;
       text-shadow: 1px 1px #008c00;
       background-color: rgba(0, 0, 0, .7);
-      margin-top: px;
+      /* margin-top: px; */
       margin-left: 10px;
       margin-bottom: 0;
-      font-size: 6px;
+      font-size: 8px;
+    }
+
+    .contact-info-email{
+      font-family: 'Cabin', sans-serif;
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+      margin-top: 3px;
+      margin-left: 10px;
+      margin-bottom: 0;
+      font-size: 8px;
+      width: 115px;
     }
 
     .contact-div-bottom{

@@ -26,7 +26,7 @@ export default function Contact() {
       </div>
       <div className="contact-div">
         <p className="contact-title">Email:</p>
-        <p className="contact-info">Office@HomesteadRetreats.com</p>
+        <p className="contact-info-email">Office@HomesteadRetreats.com</p>
       </div>
       <div className="contact-div">
         <p className="contact-title">Location:</p>
