@@ -37,6 +37,17 @@
   margin-bottom: 0;
 }
 
+.contact-info-email{
+  font-family: 'Cabin', sans-serif;
+  color: #008c00;
+  text-shadow: 1px 1px #008c00;
+  background-color: rgba(0, 0, 0, .7);
+  margin-top: 5px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 0;
+}
+
 .image-parent{
   display: flex;
   justify-content: center;
