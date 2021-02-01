@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Header from "./Header";
-// import LeftNav from "./LeftNav";
+// import Header from "./Header";
+import LeftNav from "./LeftNav";
+
+
 
 const StyledBurger = styled.div`
   width: 2rem;
@@ -11,11 +13,8 @@ const StyledBurger = styled.div`
   right: 20px;
   z-index: 20;
   display: none;
-  @media (max-width: 500px) {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-  }
+
+
   div {
     width: 2rem;
     height: 0.25rem;
@@ -34,6 +33,11 @@ const StyledBurger = styled.div`
       transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
     }
   }
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+  }
 `;
 
 function Burger() {
@@ -42,12 +46,12 @@ function Burger() {
   return (
     <>
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
-        <div className="bar-line" />
-        <div className="bar-line" />
-        <div className="bar-line" />
+        <div />
+        <div />
+        <div />
       </StyledBurger>
-      <Header open={open} setOpen={setOpen} />
+      <LeftNav open={open} setOpen={setOpen} />
     </>
   );
 }
-export default Burger;
+export default Burger; 
