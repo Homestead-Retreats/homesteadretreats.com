@@ -6,15 +6,15 @@ import styled from 'styled-components';
 const Ul = styled.ul`
   list-style: none;
   display: flex;
-  flex-flow; row;
+  justify-content: space-between
 
   li {
     padding 18px 10px;
   }
 
-  @media ( max-width: 768px) {
-    flex-flow: colum nowrap;
-    background-color: #OD2538;
+  @media ( max-width: 768px ) {
+    flex-flow: column nowrap;
+    background-color: rgba(255,255,255,.7);
     position: fixed;
     transform: ${({open})=> open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
@@ -26,7 +26,7 @@ const Ul = styled.ul`
 
 
     li{
-      color: white
+      color: white;
     }
   }
 `

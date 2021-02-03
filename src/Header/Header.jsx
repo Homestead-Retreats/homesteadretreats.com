@@ -2,9 +2,8 @@ import React from 'react'
 // import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 import Burger from './Burger';
+// import './Header.css'
 
-import './Header.css'
-import LeftNav from './LeftNav'
 
 const Nav = styled.nav`
   width: 100%;
@@ -26,7 +25,7 @@ export default function Header() {
   return (
     <Nav>
       <div className="logo">
-        Nav Bar
+        The nav bar
       </div>
       <Burger />
     </Nav>

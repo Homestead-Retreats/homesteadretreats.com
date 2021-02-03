@@ -2,7 +2,8 @@
 
 .header-links{
   display: flex;
-  /* justify-content: space-between; */
+  flex-flow: row;
+  justify-content: space-around;
   padding-top: 10px;
 }
 
@@ -20,7 +21,11 @@
   color: rgba(88, 181, 246, .9);
   font-family: 'Cabin', sans-serif;
   opacity: 0.7;
-  padding-top: 15px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(128, 128, 128);
 }
 
 .header-link-facilities{
@@ -29,6 +34,10 @@
   font-family: 'Cabin', sans-serif;
   opacity: 0.7;
   padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(128, 128, 128);
 }
 
 .header-link-property{
@@ -36,7 +45,11 @@
   color: rgba(88, 181, 246, .7);
   font-family: 'Cabin', sans-serif;
   opacity: 0.7;
-  padding-top: 15px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(128, 128, 128);
 }
 
 .header-link-onsite{
@@ -45,7 +58,10 @@
   font-family: 'Cabin', sans-serif;
   opacity: 0.7;
   padding-top: 5px;
-  width: 95px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(128, 128, 128);
 }
 
 .header-link-offsite{
@@ -54,7 +70,10 @@
   font-family: 'Cabin', sans-serif;
   opacity: 0.7;
   padding-top: 5px;
-  width: 95px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(128, 128, 128);
 }
 
 .header-link-rental{
@@ -63,7 +82,10 @@
   font-family: 'Cabin', sans-serif;
   opacity: 0.7;
   padding-top: 5px;
-  width: 95px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(128, 128, 128);
 }
 
 .header-link-floor{
@@ -71,7 +93,11 @@
   color: rgba(88, 181, 246, .7);
   font-family: 'Cabin', sans-serif;
   opacity: 0.7;
-  padding-top: 15px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(128, 128, 128);
 }
 
 .header-link-home:hover{
