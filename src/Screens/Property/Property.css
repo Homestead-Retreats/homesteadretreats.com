@@ -2,13 +2,16 @@
 
 .property-container{
   height: 100vh;
+  width: 75vw;
   color: #aa663c;
   background-color: rgba(0, 0, 0, .7);
+  margin-left: 250px;
+  margin-top: 20px;
 }
 
 .text-box{
   width: 750px;
-  margin-left: 600px;
+  margin-left: 400px;
 }
 
 .header-text{
@@ -36,6 +39,11 @@
   display: inline-block;
   width: 300px;
 }
+
+.view-more{
+  display: none;
+}
+
 .image-box-five{
   display: inline-block;
   width: 300px;
@@ -91,7 +99,7 @@
 
 .property-image-nine{
   height: 150px;
-  width: 190px;
+  width: 180px;
   margin-top: 10px;
 }
 
@@ -140,14 +148,199 @@
 }
 
 @media screen 
-  and (min-width: 500px) {
+  and (max-width: 768px) {
+
+    .property-container{
+      height: 100vh;
+      width: 80vw;
+      color: #aa663c;
+      background-color: rgba(0, 0, 0, .7);
+      margin-left: 30px;
+      margin-top: 0px;
+    }
+
+    .text-box{
+      width: 250px;
+      margin-left: 20px;
+    }
+
+    .header-text{
+      font-family: 'Cabin', sans-serif;
+      color: #aa663c;
+      padding-top: 3px;
+      font-size: 8px;
+      line-height: 8px;
+      width: 250px;
+    }
+
+    .image-box-one{
+      /* display: flex;
+      flex-direction: row; */
+      display: inline;
+      width: 550px;
+      margin-top: 10px;
+    }
+    
+    .image-box-two{
+      /* display: flex;
+      flex-direction: row; */
+      display: inline;
+      width: 250px;
+    }
+    
+    .image-box-three{
+      /* display: flex;
+      flex-direction: row; */
+      display: none;
+    }
+    .image-box-four{
+      /* display: flex;
+      flex-direction: row; */
+      display: inline;
+      width: 250px;
+    }
+    .image-box-five{
+      /* display: flex;
+      flex-direction: row; */
+      display: none;
+    }
+
+    .view-more{
+      display: flex;
+      width: 70px;
+      border: 1px solid black;
+      color: white;
+      background-color: #7d7878;
+      margin-left: 109px;
+      margin-top: 3px;
+      padding-left: 2px;
+    }
+
+    .image-box-five-more{
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+    }
+
+    .image-box-three-more{
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+    }
+
+    .property-image-one{
+      height: 50px;
+      width: 70px;
+      margin-top: 5px;
+    }
+    
+    .property-image-two{
+      height: 50px;
+      width: 70px;
+      margin-top: 0px;
+    }
+    
+    .property-image-three{
+      height: 50px;
+      width: 70px;
+      margin-top: 0px;
+    }
+    
+    .property-image-four{
+      height: 50px;
+      width: 70px;
+      margin-top: 0px;
+    }
+    
+    .property-image-five{
+      height: 50px;
+      width: 70px;
+      margin-top: 0px;
+    }
+    
+    .property-image-six{
+      height: 50px;
+      width: 70px;
+      margin-top: 0px;
+    }
+    
+    .property-image-seven{
+      margin-top: 0px;
+      height: 50px;
+      width: 70px;
+    }
+    
+    .property-image-eight{
+      height: 50px;
+      width: 70px;
+      margin-top: 0px;
+    }
+    
+    .property-image-nine{
+      height: 50px;
+      width: 70px;
+      margin-top: 0px;
+    }
+    
+    .property-image-ten{
+      height: 20px;
+      width: 20px;
+      margin-top: 0px;
+      margin-left: 105px;
+    }
+    
+    .property-image-eleven{
+      margin-top: 0px;
+      height: 20px;
+      width: 20px;
+      margin-left: 105px;
+    }
+    
+    .property-image-twelve{
+      margin-top: 0px;
+      height: 20px;
+      width: 20px;
+      margin-left: 105px;
+    }
+    
+    .property-image-thirteen{
+      height: 20px;
+      width: 20px;
+      margin-top: 0px;
+      margin-left: 105px;
+    }
+    
+    .property-image-fourteen{
+      height: 20px;
+      width: 20px;
+      margin-top: 0px;
+      margin-left: 105px;
+    }
+    
+    .property-image-fifteen{
+      height: 20px;
+      width: 20px;
+      margin-top: 0px;
+      margin-left: 105px;
+    }
+
+    .descriptions{
+      font-family: 'Cabin', sans-serif;
+      font-style: italic;
+      color: #aa663c;
+      margin-top: -3px;
+      margin-bottom: 0px;
+      font-size: 9px;
+    }
+
   }
 
 
   @media screen 
   and (min-width: 2960px) {
     .text-box{
-      margin-left: 1200px;
+      margin-left: 800px;
+      padding-top: 5px;
     }
 
     .image-box{

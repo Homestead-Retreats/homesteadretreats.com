@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Property.css'
 
 export default function Property() {
+
+  const [pictureToggle, setPictureToggle] = useState(false)
+
   return (
     <div className="property-container">
       <div className="text-box">
@@ -47,7 +50,36 @@ export default function Property() {
         <p className="descriptions">Towering Trees</p>
         <img src="http://www.homesteadretreats.com/Property_files/Media/IMG_2148/IMG_2148.jpg?disposition=download" alt="" className="property-image-fifteen"/>
         <p className="descriptions">Play Field</p>
+      </div>
+      <div>
+      <button onClick={() => {
+          pictureToggle ?
+            setPictureToggle(false) :
+          setPictureToggle(true)
+
+        }} className="view-more">View More</button>
+        {
+          pictureToggle && 
+        <div>
+        <div className="image-box-five-more">
+        <img src="http://www.homesteadretreats.com/Property_files/Media/4%20Sawmill%20Equip/4%20Sawmill%20Equip.jpg?disposition=download" alt="" className="property-image-ten"/>
+        <p className="descriptions-more">Old Sawmill Equip</p>
+        <img src="http://www.homesteadretreats.com/Property_files/Media/Canal%20Girls/Canal%20Girls.jpg?disposition=download" alt="" className="property-image-eleven"/>
+        <p className="descriptions-more">Canoeing the Canal</p>
+        <img src="http://www.homesteadretreats.com/Property_files/Media/Enchanted%20Trail/Enchanted%20Trail.jpg?disposition=download" alt="" className="property-image-twelve"/>
+        <p className="descriptions-more">Nature Trail</p>
+      </div>
+      <div className="image-box-three-more">
+        <img src="http://www.homesteadretreats.com/Property_files/Media/IMG_1123/IMG_1123.jpg?disposition=download" alt="" className="property-image-thirteen"/>
+        <p className="descriptions-more">Snowy Tree Tops</p>
+        <img src="http://www.homesteadretreats.com/Property_files/Media/6%20Towering%20Trees/6%20Towering%20Trees.jpg?disposition=download" alt="" className="property-image-fourteen"/>
+        <p className="descriptions-more">Towering Trees</p>
+        <img src="http://www.homesteadretreats.com/Property_files/Media/IMG_2148/IMG_2148.jpg?disposition=download" alt="" className="property-image-fifteen"/>
+        <p className="descriptions-more">Play Field</p>
+      </div>
         </div>
+        }
+      </div>
     </div>
   )
 }
