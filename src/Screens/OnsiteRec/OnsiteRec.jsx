@@ -20,7 +20,7 @@ export default function OnsiteRec() {
         <div className="onsite-rec-head">
           <h3 className="onsite-head-text">Recreational Opportunities Onsite</h3>
         </div>
-      <div>
+      <div className="paragraph-parent">
         <p className="paragraph">We have a variety of indoor and outdoor activities for our guests to enjoy during </p>
         <p className="paragraph">any free time they might have. These activities include:</p>
         </div>

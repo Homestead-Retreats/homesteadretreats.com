@@ -127,3 +127,159 @@
   width: 150px;
   display: inline-block;
 }
+
+@media screen 
+  and (max-width: 768px) {
+
+    .onsite-rec{
+      height: 100vh;
+      width: 82vw;
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .image-block-parent{
+      height: 300px;
+    }
+
+    .image-block-one{
+      display: inline-block;
+      flex-direction: column;
+      width: 250px;
+      height: 50px;
+      margin-top: 20px;
+    }
+    
+    .image-block-two{
+      display: inline-block;
+      flex-direction: column;
+      width: 150px;
+      height: 50px;
+      margin-top: 20px;
+    }
+    
+    .image-block-three{
+      display: inline-block;
+      flex-direction: column;
+      width: 120px;
+      height: 50px;
+      margin-top: 10px;
+    }
+    
+    .onsite-rec-head{
+      color: #aa663c;
+      font-family: 'Palatino-Bold', 'Palatino', serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 24px;
+      margin-top: 60px;
+    }
+    
+    .onsite-head-text{
+      color: #aa663c;
+      text-shadow: 0px 0px #aa663c;
+      font-size: 10px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    
+    .field{
+      height: 100px;
+      width: 120px;
+    }
+
+    .path{
+      height: 100px;
+      width: 150px;
+      margin-bottom: 5px;
+    }
+
+    .campfire{
+      height: 100px;
+      width: 150px;
+      margin-right: 10px;
+    }
+    
+    .fishing{
+      height: 100px;
+      width: 100px;
+      margin-left: -15px;
+    }
+    
+    .head-text{
+      padding-top: 10px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      color: #aa663c;
+      font-family: 'Palatino-Bold', 'Palatino', serif;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 24px;
+    }
+    
+    .onsite-line-break{
+      background-color: rgba(255, 255, 255, .6);
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: 20px;
+      width: 90px;
+      margin-left: 420px;
+      display: block;
+    }
+    
+    .paragraph-parent{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .paragraph{
+      color: #008c00;
+      font-family: 'Cabin', sans-serif;
+      font-size: 10px;
+      line-height: 10px;
+      width: 150px;
+    }
+    
+    .list-container{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .container-one{
+      display: inline;
+      width: 80px;
+    }
+    
+    .container-two{
+      display: inline;
+      width: 80px;
+    }
+    
+    .container-three{
+      display: inline;
+      width: 80px;
+    }
+    
+    .container-four{
+      display: inline;
+      width: 250px;
+    }
+    
+    .list-item{
+      width: 150px;
+      display: inline-block;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 10px;
+      font-size: 10px;
+    }
+    
+    .list-items{
+      width: 150px;
+      display: inline-block;
+      font-size: 10px;
+    }
+  }
