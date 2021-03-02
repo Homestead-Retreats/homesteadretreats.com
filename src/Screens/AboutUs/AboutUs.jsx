@@ -12,8 +12,10 @@ export default function AboutUs() {
       <div className="about-images">
         <img src="http://www.homesteadretreats.com/About_Us_files/shapeimage_5.jpg" alt="homestead-gathering"  className="gathering"/>
         <img src="http://www.homesteadretreats.com/About_Us_files/shapeimage_6.jpg" alt="homestead-lake" className="lake"/>
+        </div>
+        <div className="about-director">
         <img src="http://www.homesteadretreats.com/About_Us_files/shapeimage_4.jpg" alt="homestead-director" className="director"/>
-      </div>
+        </div>
       <div className="director-head">
         <h3 className="director-h3">
           From The Director

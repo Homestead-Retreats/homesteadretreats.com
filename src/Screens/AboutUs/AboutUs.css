@@ -3,6 +3,8 @@
 .main-container{
   height: 100vh;
   width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .about-aside-right{
@@ -14,6 +16,7 @@
   background-color: rgba(0, 0, 0, .7);
   margin-left: 20px;
   padding-top: 50px;
+  margin-top: 20px;
 }
 
 .aside-left{
@@ -56,28 +59,38 @@
 }
 
 .about-images{
-  display: flex;
+  display: inline-block;
   flex-direction: column;
-  height: 293px;
-  margin-left: 210px;
+  height: 150px;
+  margin-left: 150px;
   margin-top: 20px;
 }
 
 .gathering{
   height: 140px;
   width: 230px;
-  margin-bottom: 8px;
+  margin-right: 10px;
 }
 
 .lake{
-  height: 146px;
+  height: 140px;
   width: 230px;
+}
+
+.about-director{
+  /* display: inline;
+  flex-direction: column; */
+  height: 293px;
+  margin-left: 230px;
+  margin-top: 20px;
+  margin-top: -2px;
+  /* width: 300px; */
 }
 
 .director{
   height: 293px;
-  margin-left: 450px;
-  position: absolute;
+  margin-left: 50px;
+  /* position: absolute;  */
   width: 223px;
 }
 
@@ -153,17 +166,16 @@
     margin-left: 60px;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 210px;
+    width: 450px;
     margin-top: 10px;
   }
 
   .about-images {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     height: 293px;
-    margin-left: 30px;
-    margin-top: 20px; */
-    display: none;
+    margin-left: 10px;
+    margin-top: 20px;
   }
 
   .director-head{
@@ -174,21 +186,45 @@
     font-size: 10px;
   }
 
+  .about-director{
+    /* display: inline;
+    flex-direction: column; */
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-top: -2px;
+    /* width: 300px; */
+  }
+  
   .director{
-    display: none;
+    height: 100px;
+    margin-left: 45px;
+    margin-top: -70px;
+    width: 100px;
   }
 
   .gathering{
-    display: none;
+    /* display: none; */
+    height: 100px;
+    width: 100px;
+    margin-left: 35px;
+    margin-bottom: 10px;
   }
   
   .lake{
-    display: none;
+    /* display: none; */
+    height: 100px;
+    width: 100px;
+    margin-left: 35px;
+  }
+
+  .director-head{
+    margin-top: -70px;
   }
 
   .about-paragraphs{
     width: 250px;
-    margin-left: 35px;
+    margin-left: 25px;
   }
 
   .about-first-p{
@@ -226,7 +262,7 @@
 
 /* 2k monitor */
 
-@media screen and (max-width: 2960px){
+/* @media screen and (max-width: 2960px){
 
   .about-images{
     margin-top: 10px;
@@ -240,7 +276,7 @@
     width: 223px;
   }
 
-  /* .about-paragraphs{
+  .about-paragraphs{
     margin-left: 1250px;
-  }  */
-} 
+  } 
+}  */
