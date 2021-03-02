@@ -32,7 +32,7 @@ export default function OffsiteRec() {
           <p className="website-title">Evergreen Speedway</p>
           <a href="http://www.evergreenspeedway.com/"target="_blank" rel="noopener noreferrer" className="website-link">www.evergreenspeedway.com</a>
         </div>
-        <div>
+        <div className="test-city">
           <p className="website-title">City of Snohomish</p>
           <p className="antique">Antique Capital of the Northwest Over 100 Antique Stores</p>
         </div>

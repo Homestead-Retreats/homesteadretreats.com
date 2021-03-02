@@ -2,7 +2,9 @@
 
 .offsite-rec{
   height: 100vh;
-  /* width: 100vw; */
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .offsite-rec-images{
@@ -49,6 +51,8 @@
 
 /* .orange{
   background-color: rgba(0, 0, 0, .7);
+  width: 250px;
+  margin-left: 50px;
 } */
 
 .head{
@@ -257,6 +261,295 @@
   margin-right: 20px;
 } */
 
+
+@media screen 
+  and (max-width: 768px) {
+    .offsite-rec{
+      height: 100vh;
+      width: 100vw;
+    }
+    
+    .offsite-rec-images{
+      display: flex;
+      justify-content: center;
+      width: 450px;
+      margin-left: -60px;
+      margin-top: 0px;
+      padding-top: 10px;
+    }
+    
+    .div-one{
+      display: flex;
+      flex-direction: column;
+      width: 90px;
+      height: 150px;
+    }
+    
+    .div-two{
+      display: flex;
+      flex-direction: column;
+      width: 120px;
+    }
+    
+    .div-three{
+      display: flex;
+      flex-direction: column;
+      width: 90px;
+      height: 150px;
+    }
+    
+    .boat{
+      height: 80px;
+      margin-bottom: 3px;
+      margin-right: 1px;
+    }
+    
+    .people{
+      height: 70px;
+      margin-bottom: 0px;
+      margin-right: 1px;
+    }
+    
+    .table{
+      margin-left: 5px;
+      margin-right: 5px;
+      height: 150px;
+    }
+    
+    .flower{
+      height: 150px;
+      margin-left: 1px;
+    }
+    
+    /* .orange{
+      background-color: rgba(0, 0, 0, .7);
+    } */
+    
+    .head{
+      background-color: rgba(0, 0, 0, .7);
+      margin-bottom: 10px;
+      width: 330px;
+      margin-left: 10px;
+      display: block;
+    }
+    
+    .head-text{
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    
+    .left{
+      /* display: inline-block;
+      text-align: left;
+      justify-content: left; */
+      /* width: 500px; */
+      /* margin-top: 50px; */
+      /* margin-left: 350px; */
+      /* margin-bottom: 50px; */
+      display: inline-block;
+      width: 350px;
+      margin-top: 10px;
+      margin-left: 100px;
+    }
+    
+    .test{
+      display: flex;
+      flex-direction: column;
+      width: 150px;
+      height: 35px;
+    }
+
+    .test-city{
+      display: flex;
+      flex-direction: column;
+      width: 150px;
+      height: 60px;
+    }
+    
+    .test-long-one{
+      display: flex;
+      flex-direction: column;
+      height: 35px;
+    }
+    
+    .left-time{
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+      font-family: 'Cabin', sans-serif;
+      border-bottom: 3px solid black;
+      font-weight: 900;
+      font-size: 10px;
+      width: 160px;
+      /* height: 500px; */
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    
+    .center{
+      /* display: inline-block;
+      text-align: left;
+      justify-content: left; */
+      display: inline-block;
+      width: 350px;
+      margin-top: 10px;
+      margin-left: 100px;
+    }
+    
+    .right{
+      /* margin-top: -150px; */
+      /* display: inline-block;
+      text-align: left;
+      justify-content: flex-start; */
+      /* margin-bottom: 50px; */
+      display: inline-block;
+      width: 350px;
+      margin-top: 10px;
+      margin-left: 100px;
+    }
+    
+    .right-time{
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+      font-family: 'Cabin', sans-serif;
+      border-bottom: 3px solid black;
+      width: 150px;
+      font-weight: 900;
+      font-size: 10px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    
+    .right-time-hour{
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+      font-family: 'Cabin', sans-serif;
+      border-bottom: 3px solid black;
+      width: 150px;
+      font-weight: 900;
+      font-size: 10px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    
+    .right-right{
+      /* display: inline-block;
+      text-align: left;
+      justify-content: flex-start; */
+      display: inline-block;
+      width: 450px;
+      margin-top: 10px;
+      margin-left: 100px;
+      margin-bottom: 10px;
+    }
+    
+    .website-title{
+      color: #aa663c;
+      background-color: rgba(0, 0, 0, .7);
+      font-weight: 800;
+      border-bottom: 2px solid #aa663c;
+      width: 150px;
+      font-size: 10px;
+      margin-top: 9px;
+      margin-bottom: 3px;
+    }
+    
+    .website-link{
+      text-decoration: none;
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+      font-size: 10px;
+      width: 150px;
+    }
+    
+    .fish{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+      width: 150px;
+      font-size: 10px;
+    }
+    
+    .antique{
+      width: 150px;
+      font-size: 10px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+    }
+    
+    .pool{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+      width: 150px;
+      font-size: 10px;
+    }
+    
+    .skate-park{
+      width: 150px;
+      font-size: 10px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+    }
+    
+    .hikes{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+      width: 150px;
+      font-size: 10px;
+    }
+    
+    .website-link:hover{
+      color: #aa663c;
+      border-bottom: 1px solid #aa663c;
+    }
+    
+    .test-tall-two{
+      width: 260px;
+    }
+    
+    .tall{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .tall-two{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .tall-three{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    /* .website-link-long{
+      text-decoration: none;
+      color: #008c00;
+      text-shadow: 1px 1px #008c00;
+      background-color: rgba(0, 0, 0, .7);
+      font-size: 19px;
+      width: 260px;
+      margin-right: 20px;
+    } */
+    
+  }
 
 @media screen and (min-width: 2960px){
   .offsite-rec-images{
