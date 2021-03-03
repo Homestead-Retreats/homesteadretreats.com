@@ -157,15 +157,15 @@
     .image-block-two{
       display: inline-block;
       flex-direction: column;
-      width: 150px;
+      width: 165px;
       height: 50px;
-      margin-top: 20px;
+      margin-top: 0px;
     }
     
     .image-block-three{
       display: inline-block;
       flex-direction: column;
-      width: 120px;
+      width: 140px;
       height: 50px;
       margin-top: 10px;
     }
@@ -189,7 +189,7 @@
     
     .field{
       height: 100px;
-      width: 120px;
+      width: 140px;
     }
 
     .path{
@@ -201,12 +201,12 @@
     .campfire{
       height: 100px;
       width: 150px;
-      margin-right: 10px;
+      /* margin-right: 0px; */
     }
     
     .fishing{
       height: 100px;
-      width: 100px;
+      width: 140px;
       margin-left: -15px;
     }
     
@@ -232,7 +232,7 @@
     }
     
     .paragraph-parent{
-      margin-left: 80px;
+      margin-left: 33px;
     }
 
     .paragraph{
@@ -240,7 +240,7 @@
       font-family: 'Cabin', sans-serif;
       font-size: 10px;
       line-height: 10px;
-      width: 150px;
+      width: 250px;
     }
     
     .list-container{
