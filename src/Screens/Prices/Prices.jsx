@@ -52,7 +52,7 @@ export default function Prices() {
         <p className="price-title">by Major Ian Thomas</p>
         </div>
         </div>
-      <div>
+      <div className="bible-school">
         <p className="price-title">Great Bible School:</p>
         <a href="http://www.capernwray.ca/" target="_blank" rel="noopener noreferrer" className="price-links-long">Capernwray Harbour Bible CenterThetis Island, BC Canada V0R2Y0</a>
       </div>
