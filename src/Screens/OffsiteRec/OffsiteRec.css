@@ -371,6 +371,10 @@
       flex-direction: column;
       height: 35px;
     }
+
+    .test-long-two{
+      margin-top: 20px;
+    }
     
     .left-time{
       color: #008c00;
