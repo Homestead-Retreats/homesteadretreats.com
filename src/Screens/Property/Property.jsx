@@ -1,9 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Property.css'
 
 export default function Property() {
 
-  // const [pictureToggle, setPictureToggle] = useState(false)
+  const [pictureToggle, setPictureToggle] = useState(false)
 
   return (
     <div className="property-container">
@@ -51,7 +51,7 @@ export default function Property() {
         <img src="http://www.homesteadretreats.com/Property_files/Media/IMG_2148/IMG_2148.jpg?disposition=download" alt="" className="property-image-fifteen"/>
         <p className="descriptions">Play Field</p>
       </div>
-      {/* <div>
+      <div>
       <button onClick={() => {
           pictureToggle ?
             setPictureToggle(false) :
@@ -79,7 +79,7 @@ export default function Property() {
       </div>
         </div>
         }
-      </div> */}
+      </div>
     </div>
   )
 }
