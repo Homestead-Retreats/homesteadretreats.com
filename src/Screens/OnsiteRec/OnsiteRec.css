@@ -235,6 +235,7 @@
     }
     
     .paragraph-parent{
+      margin-top: 10px;
       margin-left: 133px;
     }
 
@@ -301,10 +302,12 @@
       background-color: rgba(0, 0, 0, .7);
       display: inline-block;
       margin-top: 50px;
+      overflow-y: scroll;
     }
 
     .image-block-parent{
       height: 300px;
+      margin-top: 0px;
     }
 
     .image-block-one{
@@ -318,15 +321,16 @@
     .image-block-two{
       display: inline-block;
       flex-direction: column;
-      width: 165px;
+      width: 250px;
       height: 50px;
       margin-top: 0px;
+      margin-left: 0;
     }
     
     .image-block-three{
       display: inline-block;
       flex-direction: column;
-      width: 140px;
+      width: 250px;
       height: 50px;
       margin-top: 10px;
     }
@@ -337,7 +341,7 @@
       font-size: 18px;
       font-weight: bold;
       line-height: 24px;
-      margin-top: 60px;
+      margin-top: 150px;
     }
     
     .onsite-head-text{
@@ -368,7 +372,7 @@
     .fishing{
       height: 100px;
       width: 140px;
-      margin-left: -15px;
+      margin-left: 0px;
     }
     
     .head-text{
@@ -412,19 +416,19 @@
     
     .container-one{
       display: inline;
-      width: 80px;
+      width: 100px;
       margin-right: -20px;
     }
     
     .container-two{
       display: inline;
-      width: 80px;
+      width: 100px;
       margin-right: -20px;
     }
     
     .container-three{
       display: inline;
-      width: 80px;
+      width: 100px;
       margin-right: -20px;
     }
     
