@@ -75,7 +75,13 @@
 /* mobile break point */
 
 @media screen 
-  and (max-width: 846px) {
+  and (max-width: 576px) {
+    
+  }
+
+
+@media screen 
+  and (max-width: 768px) {
     .price-background{
       background-color: rgba(0, 0, 0, .7);
       /* margin-bottom: 10px; */
