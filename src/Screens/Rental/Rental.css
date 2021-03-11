@@ -294,7 +294,7 @@
 
 @media screen and (min-width: 2960px){
 
-  .rental-aside-left{
+  /* .rental-aside-left{
     display: inline-block;
     text-align: left;
     justify-content: flex-start;
@@ -316,19 +316,19 @@
     margin-left: 200px;
   }
   
-  /* .images{
+  .images{
     margin-top: 10px;
     margin-left: 1280px;
-  } */
+  }
 
 
-/* 
+
   .director-head{
     width: 250px;
     margin-left: 1400px;
-  } */
+  }
 
   .paragraphs{
-    /* margin-left: 1250px; */
-  }
+    margin-left: 1250px;
+  } */
 } 
