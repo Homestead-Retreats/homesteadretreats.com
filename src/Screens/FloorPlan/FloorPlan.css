@@ -60,12 +60,84 @@
 }
 
 @media screen 
-  and (max-width: 576px) {
+  and (max-width: 768px) {
+    .floor-plan{
+      height: 100vh;
+      width: 100vw;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
     
+    .floor-one{
+      display: block;
+      width: 250px;
+      height: 150px;
+      margin-left: 255px;
+    }
+    
+    .floor-two{
+      display: block;
+      width: 250px;
+      margin-top: 240px;
+      margin-left: 255px;
+    }
+    
+    .floor-three{
+      display: block;
+      width: 250px;
+      margin-top: 20px;
+      margin-left: 255px;
+    }
+    
+    .floor-head{
+      background-color: rgba(0, 0, 0, .7);
+      margin-bottom: 10px;
+      width: 200px;
+      display: block;
+    }
+    
+    .floor-head-apartment{
+      background-color: rgba(0, 0, 0, .7);
+      margin-bottom: 10px;
+      width: 200px;
+      display: block;
+    }
+    
+    .floor-layout{
+      background-color: rgba(255, 255, 255, .6);
+      margin-bottom: 10px;
+      width: 350px;
+    }
+    
+    .floor-layout-apartment{
+      background-color: rgba(255, 255, 255, .6);
+      margin-bottom: 10px;
+      width: 350px;
+    }
+    
+    .floor-main{
+      padding-top: 10px;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .floor-hall{
+      padding-top: 10px;
+      height: 90%;
+      width: 90%;
+    }
+    
+    .floor-apartment{
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      height: 90%;
+      width: 90%;
+    }
   }
 
-@media screen 
-  and (max-width: 768px) {
+  @media screen 
+  and (max-width: 576px) {
     .floor-plan{
       height: 100vh;
       width: 100vw;
@@ -139,5 +211,4 @@
       height: 90%;
       width: 90%;
     }
-    
   }
