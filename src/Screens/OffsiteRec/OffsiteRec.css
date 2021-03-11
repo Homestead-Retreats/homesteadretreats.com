@@ -568,8 +568,8 @@
     .offsite-rec-images{
       display: flex;
       justify-content: center;
-      width: 450px;
-      margin-left: -60px;
+      width: 350px;
+      margin-left: 0px;
       margin-top: 0px;
       padding-top: 10px;
     }
@@ -624,8 +624,8 @@
     .head{
       background-color: rgba(0, 0, 0, .7);
       margin-bottom: 10px;
-      width: 330px;
-      margin-left: 10px;
+      width: 310px;
+      margin-left: 25px;
       display: block;
     }
     
