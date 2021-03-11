@@ -81,7 +81,7 @@ export default function OffsiteRec() {
         </div>
         </div>
         <div className="right">
-        <div className="test">
+        <div>
           <p className="right-time">Within 30 Minutes of The Homestead</p>
         </div>
         <div className="test-tall-three">

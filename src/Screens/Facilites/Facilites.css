@@ -139,6 +139,8 @@
   width: 550px;
 } */
 
+/* Tablet Breakpoint */
+
 @media screen 
 and (max-width: 768px) {
   
@@ -289,6 +291,8 @@ and (max-width: 768px) {
       padding-top: 10px;
     }
   }
+
+/* Mobile breakpoint */
 
   @media screen 
   and (max-width: 576px) {
