@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.price-background{
+  background-color: rgba(0, 0, 0, .7);
+  /* margin-bottom: 10px; */
+  width: 520px;
+  height: 915px;
+}
+
+.price-year-container{
+  margin-bottom: 20px;
+}
+
+.price-year{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 210px;
+  border-bottom: 3px solid black;
+  width: 90px;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  color: #aa663c;
+  padding-top: 5px;
+}
+
+.price-title-container{
+  margin-bottom: 27px;
+}
+
+.price-title{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  color: #aa663c;
+}
+
+.price{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  color: #aa663c;
+}
+
+.price-red{
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.price-image{
+  margin-left: 179px;
+}
+
+.books{
+  text-align: center;
+}
+
+.price-books{
+  color: #aa663c;
+}
+
+.price-links{
+  text-decoration: none;
+  color: #aa663c;
+}
+
+.price-links-long{
+  text-decoration: underline;
+  color: #aa663c;
+  margin-left: 15px;
+}
+
+.bible-school{
+  margin-top: -10px;
+}
+
+/* mobile break point */
+
+@media screen 
+  and (max-width: 576px) {
+    
+  }
+
+
+@media screen 
+  and (max-width: 768px) {
+    .price-background{
+      background-color: rgba(0, 0, 0, .7);
+      /* margin-bottom: 10px; */
+      width: 310px;
+      height: 915px;
+      margin-left: 10px;
+      margin-top: 20px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+    
+    .price-year-container{
+      margin-bottom: 20px;
+    }
+    
+    .price-year{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 100px;
+      border-bottom: 3px solid black;
+      width: 90px;
+      font-family: 'Cabin', sans-serif;
+      text-align: center;
+      color: #aa663c;
+      padding-top: 5px;
+    }
+    
+    .price-title-container{
+      margin-bottom: 27px;
+    }
+    
+    .price-title{
+      font-family: 'Cabin', sans-serif;
+      font-size: 13px;
+      text-align: center;
+      color: #aa663c;
+    }
+    
+    .price{
+      font-family: 'Cabin', sans-serif;
+      font-size: 14px;
+      text-align: center;
+      color: #aa663c;
+    }
+    
+    .price-red{
+      color: red;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .price-image{
+      margin-left: 80px;
+    }
+    
+    .books{
+      text-align: center;
+    }
+    
+    .price-books{
+      color: #aa663c;
+    }
+    
+    .price-links{
+      text-decoration: none;
+      color: #aa663c;
+    }
+    
+
+    .bible-school{
+      margin-left: 10px;
+    }
+
+    .price-links-long{
+      text-decoration: underline;
+      color: #aa663c;
+      margin-left: 50px;
+      padding-left: 5px;
+    }
+    
+  }
+
+
+  /* 2K breakpoint  */
+/* @media screen and (min-width: 2960px){
+  .price-year{
+    margin: 0;
+  }
+} */

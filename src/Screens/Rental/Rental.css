@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.rental-container{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.rental-aside-right{
+  display: inline-block;
+  text-align: left;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, .7);
+  /* width: 700px; */
+  height: 920px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.rental-aside-left{
+  display: inline-block;
+  text-align: left;
+  justify-content: flex-start;
+  width: 600px;
+  margin-top: 50px;
+  /* height: 980px; */
+}
+
+
+.rental-images-block-one{
+  margin-top: 152px;
+}
+
+.rental-images-block-two{
+  margin-bottom: 60px;
+}
+
+.one{
+  display: inline;
+  height: 140px;
+  width: 230px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  margin-left: 90px;
+  /* margin-top: 147px; */
+}
+
+.two{
+  display: inline;
+  height: 140px;
+  width: 230px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+
+.three{
+  display: inline;
+  height: 140px;
+  width: 230px;
+  margin-right: 10px;
+  margin-left: 90px;
+}
+
+.four{
+  display: inline;
+  height: 140px;
+  width: 230px;
+}
+
+
+.rental-head{
+  color: #aa663c;
+  font-family: 'Palatino-Bold', 'Palatino', serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-left: 250px;
+  margin-bottom: 10px;
+}
+
+.rental-line-break{
+  margin-left: 40px;
+}
+
+.paragraphs{
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 550px;
+}
+
+.first-p{
+  color: #008c00;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.second-p{
+  color: #008c00;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.third-p{
+  color: #008c00;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+
+@media screen 
+  and (max-width: 768px) {
+
+  /* .main-container{
+    margin-top: 250px;
+    width: 900px;
+  } */
+
+  .rental-aside-left{
+    display: inline-block;
+    text-align: left;
+    justify-content: flex-start;
+    width: 370px;
+    margin-top: 50px;
+    /* height: 980px; */
+  }
+
+  .rental-aside-right{
+    height: 1550px;
+    width: 310px;
+    margin-left: -30px;
+  }
+
+  .rental-images-block-one{
+    margin-top: 152px;
+  }
+  
+  .rental-images-block-two{
+    margin-bottom: 20px;
+  }
+  
+  .one{
+    /* display: inline; */
+    height: 140px;
+    width: 230px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: -140px;
+  }
+  
+  .two{
+    display: inline;
+    height: 140px;
+    width: 230px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  
+  .three{
+    display: inline;
+    height: 140px;
+    width: 230px;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  
+  .four{
+    display: inline;
+    margin-left: 30px;
+    margin-top: 8px;
+    height: 140px;
+    width: 230px;
+  }
+  
+  .rental-head{
+    color: #aa663c;
+    font-family: 'Palatino-Bold', 'Palatino', serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+
+  .paragraphs{
+    margin-left: 30px;
+  }
+
+  .first-p{
+    width: 250px;
+  }
+
+  .second-p{
+    width: 250px;
+  }
+
+  .third-p{
+    width: 250px;
+  }
+}
+
+/* mobile break point */
+
+@media screen 
+  and (max-width: 576px) {
+
+    /* .main-container{
+    margin-top: 250px;
+    width: 900px;
+  } */
+
+  .rental-aside-right{
+    height: 1550px;
+    width: 310px;
+    margin-left: -30px;
+  }
+
+  .rental-images-block-one{
+    margin-top: 152px;
+  }
+  
+  .rental-images-block-two{
+    margin-bottom: 20px;
+  }
+  
+  .one{
+    /* display: inline; */
+    height: 140px;
+    width: 230px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: -140px;
+  }
+  
+  .two{
+    display: inline;
+    height: 140px;
+    width: 230px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  
+  .three{
+    display: inline;
+    height: 140px;
+    width: 230px;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  
+  .four{
+    display: inline;
+    margin-left: 30px;
+    margin-top: 8px;
+    height: 140px;
+    width: 230px;
+  }
+  
+  .rental-head{
+    color: #aa663c;
+    font-family: 'Palatino-Bold', 'Palatino', serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+
+  .paragraphs{
+    margin-left: 30px;
+  }
+
+  .first-p{
+    width: 250px;
+  }
+
+  .second-p{
+    width: 250px;
+  }
+
+  .third-p{
+    width: 250px;
+  }
+  }
+
+/* 2k monitor */
+
+@media screen and (min-width: 2960px){
+
+  /* .rental-aside-left{
+    display: inline-block;
+    text-align: left;
+    justify-content: flex-start;
+    height: 811.094px;
+  }
+
+  .rental-aside-right{
+    display: inline-block;
+    text-align: left;
+    justify-content: flex-start;
+    color: #008c00;
+    text-shadow: 1px 1px #008c00;
+    background-color: rgba(0, 0, 0, .7);
+    margin-left: 20px;
+    padding-top: 50px;
+  }
+
+  .price-year{
+    margin-left: 200px;
+  }
+  
+  .images{
+    margin-top: 10px;
+    margin-left: 1280px;
+  }
+
+
+
+  .director-head{
+    width: 250px;
+    margin-left: 1400px;
+  }
+
+  .paragraphs{
+    margin-left: 1250px;
+  } */
+} 
